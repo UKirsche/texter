@@ -1,0 +1,60 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Anand and Mobasher(2007)]{anand2007contextual}
+Sarabjot~Singh Anand and Bamshad Mobasher.
+\newblock Contextual recommendation.
+\newblock In \emph{From web to social web: Discovering and deploying user and
+  content profiles}, pages 142--160. Springer, 2007.
+
+\bibitem[Budzik and Hammond(2000)]{budzik2000user}
+Jay Budzik and Kristian~J Hammond.
+\newblock User interactions with everyday applications as context for
+  just-in-time information access.
+\newblock In \emph{Proceedings of the 5th international conference on
+  Intelligent user interfaces}, pages 44--51. ACM, 2000.
+
+\bibitem[Dey(1998)]{dey1998context}
+Anind~K Dey.
+\newblock Context-aware computing: The cyberdesk project.
+\newblock In \emph{Proceedings of the AAAI 1998 Spring Symposium on Intelligent
+  Environments}, pages 51--54, 1998.
+
+\bibitem[Dey et~al.(2001)Dey, Abowd, and Salber]{dey2001conceptual}
+Anind~K Dey, Gregory~D Abowd, and Daniel Salber.
+\newblock A conceptual framework and a toolkit for supporting the rapid
+  prototyping of context-aware applications.
+\newblock \emph{Human-computer interaction}, 16\penalty0 (2):\penalty0 97--166,
+  2001.
+
+\bibitem[Grant and Ashford(2008)]{grant2008dynamics}
+Adam~M Grant and Susan~J Ashford.
+\newblock The dynamics of proactivity at work.
+\newblock \emph{Research in organizational behavior}, 28:\penalty0 3--34, 2008.
+
+\bibitem[Hofer et~al.(2003)Hofer, Schwinger, Pichler, Leonhartsberger, Altmann,
+  and Retschitzegger]{hofer2003context}
+Thomas Hofer, Wieland Schwinger, Mario Pichler, Gerhard Leonhartsberger, Josef
+  Altmann, and Werner Retschitzegger.
+\newblock Context-awareness on mobile devices-the hydrogen approach.
+\newblock In \emph{System Sciences, 2003. Proceedings of the 36th Annual Hawaii
+  International Conference on}, pages 10--pp. IEEE, 2003.
+
+\bibitem[Schilit et~al.(1994)Schilit, Adams, and Want]{schilit1994context}
+Bill Schilit, Norman Adams, and Roy Want.
+\newblock Context-aware computing applications.
+\newblock In \emph{Mobile Computing Systems and Applications, 1994. WMCSA 1994.
+  First Workshop on}, pages 85--90. IEEE, 1994.
+
+\bibitem[Want et~al.(1992)Want, Hopper, Falc{\~a}o, and
+  Gibbons]{want1992active}
+Roy Want, Andy Hopper, Veronica Falc{\~a}o, and Jonathan Gibbons.
+\newblock The active badge location system.
+\newblock \emph{ACM Transactions on Information Systems (TOIS)}, 10\penalty0
+  (1):\penalty0 91--102, 1992.
+
+\end{thebibliography}

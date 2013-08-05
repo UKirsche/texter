@@ -1,0 +1,19 @@
+# Fdb version 3
+["latex"] 1375193272 "introduction.tex" "introduction.dvi" "introduction" 1375193272
+  "/etc/texmf/web2c/texmf.cnf" 1370615888 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf/web2c/texmf.cnf" 1351468918 31466 25867adcbb7c2423c76afd53e67c9231 ""
+  "/var/lib/texmf/web2c/pdftex/latex.fmt" 1370616149 713954 d68273c5ac0b32842a26e48d5d6fe56d ""
+  "introduction.aux" 1375193226 8 a94a2480d3289e625eea47cd1b285758 ""
+  "introduction.tex" 1375193270 294 75dbefd04a40c3409449f37aa01d821a ""
+  (generated)
+  "introduction.dvi"
+  "introduction.log"
+["pdflatex"] 1375193408 "introduction.tex" "introduction.pdf" "introduction" 1375193408
+  "/etc/texmf/web2c/texmf.cnf" 1370615888 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf/web2c/texmf.cnf" 1351468918 31466 25867adcbb7c2423c76afd53e67c9231 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1370616148 713989 bf1045a6d247ab1cb807c30c8d5d6497 ""
+  "introduction.aux" 1375193345 979 a47bafb71669bd31535b2d99605f8e68 ""
+  "introduction.tex" 1375193402 332 c48e80899f129818fe07913513e62514 ""
+  (generated)
+  "introduction.pdf"
+  "introduction.log"
