@@ -1,4 +1,4 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{12}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -17,6 +17,12 @@ Jay Budzik and Kristian~J Hammond.
   just-in-time information access.
 \newblock In \emph{Proceedings of the 5th international conference on
   Intelligent user interfaces}, pages 44--51. ACM, 2000.
+
+\bibitem[Cohen and Levesque(1990)]{cohen1990intention}
+Philip~R Cohen and Hector~J Levesque.
+\newblock Intention is choice with commitment.
+\newblock \emph{Artificial intelligence}, 42\penalty0 (2):\penalty0 213--261,
+  1990.
 
 \bibitem[Dey(1998)]{dey1998context}
 Anind~K Dey.
@@ -44,11 +50,31 @@ Thomas Hofer, Wieland Schwinger, Mario Pichler, Gerhard Leonhartsberger, Josef
 \newblock In \emph{System Sciences, 2003. Proceedings of the 36th Annual Hawaii
   International Conference on}, pages 10--pp. IEEE, 2003.
 
+\bibitem[Horvitz et~al.(2003)Horvitz, Kadie, Paek, and
+  Hovel]{horvitz2003models}
+Eric Horvitz, Carl Kadie, Tim Paek, and David Hovel.
+\newblock Models of attention in computing and communication: from principles
+  to applications.
+\newblock \emph{Communications of the ACM}, 46\penalty0 (3):\penalty0 52--59,
+  2003.
+
+\bibitem[Roda and Thomas(2006)]{roda2006attention}
+Claudia Roda and Julie Thomas.
+\newblock Attention aware systems: Theories, applications, and research agenda.
+\newblock \emph{Computers in Human Behavior}, 22\penalty0 (4):\penalty0
+  557--587, 2006.
+
 \bibitem[Schilit et~al.(1994)Schilit, Adams, and Want]{schilit1994context}
 Bill Schilit, Norman Adams, and Roy Want.
 \newblock Context-aware computing applications.
 \newblock In \emph{Mobile Computing Systems and Applications, 1994. WMCSA 1994.
   First Workshop on}, pages 85--90. IEEE, 1994.
+
+\bibitem[Schmitz et~al.(2011)Schmitz, Kirschenmann, Niemann, and
+  Wolpers]{schmitz2011contextualized}
+Hans-Christian Schmitz, Uwe Kirschenmann, Katja Niemann, and Martin Wolpers.
+\newblock Contextualized attention metadata, in claudia roda (hrsg.
+\newblock 2011.
 
 \bibitem[Want et~al.(1992)Want, Hopper, Falc{\~a}o, and
   Gibbons]{want1992active}

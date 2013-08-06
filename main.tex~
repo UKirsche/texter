@@ -120,7 +120,7 @@ thistoo
 %bibliography
 \clearpage
 \addcontentsline{toc}{chapter}{\protect\numberline{}Bibliography}
-\bibliography{../literature/julia_phd}
+\bibliography{../literature/knowledge}
 \emptydoublepage
 
 %Index
