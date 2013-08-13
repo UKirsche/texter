@@ -1,4 +1,4 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{22}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -24,6 +24,12 @@ Philip~R Cohen and Hector~J Levesque.
 \newblock \emph{Artificial intelligence}, 42\penalty0 (2):\penalty0 213--261,
   1990.
 
+\bibitem[Creighton(1992)]{creighton1992origin}
+Cynthia Creighton.
+\newblock The origin and evolution of activity analysis.
+\newblock \emph{The American Journal of Occupational Therapy}, 46\penalty0
+  (1):\penalty0 45--48, 1992.
+
 \bibitem[Dey(1998)]{dey1998context}
 Anind~K Dey.
 \newblock Context-aware computing: The cyberdesk project.
@@ -36,6 +42,31 @@ Anind~K Dey, Gregory~D Abowd, and Daniel Salber.
   prototyping of context-aware applications.
 \newblock \emph{Human-computer interaction}, 16\penalty0 (2):\penalty0 97--166,
   2001.
+
+\bibitem[Eder and Liebhart(1995)]{eder1995workflow}
+Johann Eder and Walter Liebhart.
+\newblock The workflow activity model wamo.
+\newblock In \emph{CoopIS}, volume~15, pages 87--98. Citeseer, 1995.
+
+\bibitem[Gilbreth(1911)]{gilbreth1911motion}
+Frank~Bunker Gilbreth.
+\newblock \emph{Motion study: A method for increasing the efficiency of the
+  workman}.
+\newblock D. Van Nostrand Company, 1911.
+
+\bibitem[Gold et~al.(2001)Gold, Malhotra, and Segars]{gold2001knowledge}
+Andrew~H Gold, Arvind Malhotra, and Albert~H Segars.
+\newblock Knowledge management: an organizational capabilities perspective.
+\newblock \emph{J. of Management Information Systems}, 18\penalty0
+  (1):\penalty0 185--214, 2001.
+
+\bibitem[Granitzer et~al.(2008)Granitzer, Kroll, Seifert, Rath, Weber, Dietzel,
+  and Lindstaedt]{granitzer2008analysis}
+Michael Granitzer, M~Kroll, Christin Seifert, Andreas~S Rath, Nicolas Weber,
+  Olivia Dietzel, and Stefanie Lindstaedt.
+\newblock Analysis of machine learning techniques for context extraction.
+\newblock In \emph{Digital Information Management, 2008. ICDIM 2008. Third
+  International Conference on}, pages 233--240. IEEE, 2008.
 
 \bibitem[Grant and Ashford(2008)]{grant2008dynamics}
 Adam~M Grant and Susan~J Ashford.
@@ -58,6 +89,19 @@ Eric Horvitz, Carl Kadie, Tim Paek, and David Hovel.
 \newblock \emph{Communications of the ACM}, 46\penalty0 (3):\penalty0 52--59,
   2003.
 
+\bibitem[Newell et~al.(1972)Newell, Simon, et~al.]{newell1972human}
+Allen Newell, Herbert~Alexander Simon, et~al.
+\newblock \emph{Human problem solving}, volume~14.
+\newblock Prentice-Hall Englewood Cliffs, NJ, 1972.
+
+\bibitem[Reinhardt et~al.(2011)Reinhardt, Schmidt, Sloep, and
+  Drachsler]{reinhardt2011knowledge}
+Wolfgang Reinhardt, Benedikt Schmidt, Peter Sloep, and Hendrik Drachsler.
+\newblock Knowledge worker roles and actions—results of two empirical
+  studies.
+\newblock \emph{Knowledge and Process Management}, 18\penalty0 (3):\penalty0
+  150--174, 2011.
+
 \bibitem[Roda and Thomas(2006)]{roda2006attention}
 Claudia Roda and Julie Thomas.
 \newblock Attention aware systems: Theories, applications, and research agenda.
@@ -70,11 +114,28 @@ Bill Schilit, Norman Adams, and Roy Want.
 \newblock In \emph{Mobile Computing Systems and Applications, 1994. WMCSA 1994.
   First Workshop on}, pages 85--90. IEEE, 1994.
 
+\bibitem[Schmidt et~al.(2011)Schmidt, Stoitsev, and
+  M{\"u}hlh{\"a}user]{schmidt2011task}
+Benedikt Schmidt, Todor Stoitsev, and Max M{\"u}hlh{\"a}user.
+\newblock Task models for intention-aware systems.
+\newblock \emph{J. UCS}, 17\penalty0 (10):\penalty0 1511--1526, 2011.
+
 \bibitem[Schmitz et~al.(2011)Schmitz, Kirschenmann, Niemann, and
   Wolpers]{schmitz2011contextualized}
 Hans-Christian Schmitz, Uwe Kirschenmann, Katja Niemann, and Martin Wolpers.
 \newblock Contextualized attention metadata, in claudia roda (hrsg.
 \newblock 2011.
+
+\bibitem[Taylor(2013)]{taylor2013scientific}
+Frederick~Winslow Taylor.
+\newblock \emph{Scientific management}.
+\newblock Routledge, 2013.
+
+\bibitem[Tsai(2012)]{tsai2012knowledge}
+Hsu-Hao Tsai.
+\newblock Knowledge management vs. data mining: Research trend, forecast and
+  citation approach.
+\newblock \emph{Expert Systems with Applications}, 2012.
 
 \bibitem[Want et~al.(1992)Want, Hopper, Falc{\~a}o, and
   Gibbons]{want1992active}

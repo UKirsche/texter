@@ -116,6 +116,10 @@ thistoo
 %--------------------------------------------------------------
 \backmatter
 
+%acronyms
+\clearpage
+\include{acronyme}
+
 %Bibliographie
 %bibliography
 \clearpage
