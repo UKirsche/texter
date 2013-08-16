@@ -22,45 +22,45 @@ Repeated entry---line 200 of file ../literature/knowledge.bib
  :                                   ,
 I'm skipping whatever remains of this entry
 Warning--empty journal in schmitz2011contextualized
-You've used 22 entries,
+You've used 26 entries,
             2773 wiz_defined-function locations,
-            744 strings with 8947 characters,
-and the built_in function-call counts, 11007 in all, are:
-= -- 1003
-> -- 604
-< -- 20
-+ -- 205
-- -- 183
-* -- 869
-:= -- 1646
-add.period$ -- 72
-call.type$ -- 22
-change.case$ -- 123
-chr.to.int$ -- 22
-cite$ -- 45
-duplicate$ -- 524
-empty$ -- 916
-format.name$ -- 217
-if$ -- 2352
+            768 strings with 9596 characters,
+and the built_in function-call counts, 12893 in all, are:
+= -- 1195
+> -- 655
+< -- 27
++ -- 224
+- -- 198
+* -- 982
+:= -- 1907
+add.period$ -- 86
+call.type$ -- 26
+change.case$ -- 140
+chr.to.int$ -- 26
+cite$ -- 53
+duplicate$ -- 633
+empty$ -- 1099
+format.name$ -- 238
+if$ -- 2783
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 25
-newline$ -- 118
-num.names$ -- 88
-pop$ -- 267
+missing$ -- 29
+newline$ -- 138
+num.names$ -- 104
+pop$ -- 308
 preamble$ -- 1
-purify$ -- 104
+purify$ -- 117
 quote$ -- 0
-skip$ -- 401
+skip$ -- 484
 stack$ -- 0
-substring$ -- 457
-swap$ -- 82
-text.length$ -- 9
+substring$ -- 564
+swap$ -- 111
+text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 227
+type$ -- 271
 warning$ -- 1
-while$ -- 107
+while$ -- 130
 width$ -- 0
-write$ -- 295
+write$ -- 349
 (There was 1 error message)

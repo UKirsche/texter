@@ -1,4 +1,4 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{26}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -17,6 +17,13 @@ Jay Budzik and Kristian~J Hammond.
   just-in-time information access.
 \newblock In \emph{Proceedings of the 5th international conference on
   Intelligent user interfaces}, pages 44--51. ACM, 2000.
+
+\bibitem[Canny(2004)]{canny2004gap}
+John Canny.
+\newblock Gap: a factor model for discrete data.
+\newblock In \emph{Proceedings of the 27th annual international ACM SIGIR
+  conference on Research and development in information retrieval}, pages
+  122--129. ACM, 2004.
 
 \bibitem[Cohen and Levesque(1990)]{cohen1990intention}
 Philip~R Cohen and Hector~J Levesque.
@@ -89,10 +96,28 @@ Eric Horvitz, Carl Kadie, Tim Paek, and David Hovel.
 \newblock \emph{Communications of the ACM}, 46\penalty0 (3):\penalty0 52--59,
   2003.
 
+\bibitem[Leont'ev(1974)]{leont1974problem}
+Aleksei~N Leont'ev.
+\newblock The problem of activity in psychology.
+\newblock \emph{Journal of Russian and East European Psychology}, 13\penalty0
+  (2):\penalty0 4--33, 1974.
+
+\bibitem[Nardi(1996)]{nardi1996activity}
+Bonnie~A Nardi.
+\newblock Activity theory and human-computer interaction.
+\newblock \emph{Context and consciousness: Activity theory and human-computer
+  interaction}, pages 7--16, 1996.
+
 \bibitem[Newell et~al.(1972)Newell, Simon, et~al.]{newell1972human}
 Allen Newell, Herbert~Alexander Simon, et~al.
 \newblock \emph{Human problem solving}, volume~14.
 \newblock Prentice-Hall Englewood Cliffs, NJ, 1972.
+
+\bibitem[Rattenbury and Canny(2007)]{rattenbury2007caad}
+Tye Rattenbury and John Canny.
+\newblock Caad: an automatic task support system.
+\newblock In \emph{Proceedings of the SIGCHI conference on Human factors in
+  computing systems}, pages 687--696. ACM, 2007.
 
 \bibitem[Reinhardt et~al.(2011)Reinhardt, Schmidt, Sloep, and
   Drachsler]{reinhardt2011knowledge}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.6.7)  13 AUG 2013 18:17
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.6.7)  16 AUG 2013 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -583,7 +583,7 @@ Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
 
 
 Writing index file main.idx
-Package color Info: Redefining color blue on input line 350.
+Package color Info: Redefining color blue on input line 351.
 (/usr/share/texlive/texmf-dist/tex/latex/changepage/chngpage.sty
 Package: chngpage 2009/10/20 v1.2b change page layout
 \c@cp@cnt=\count113
@@ -618,13 +618,16 @@ Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 (/usr/share/texlive/texmf-dist/tex/latex/base/alltt.sty
 Package: alltt 1997/06/16 v2.0g defines alltt environment
 )
-Package color Info: Redefining color red on input line 634.
+Package color Info: Redefining color red on input line 635.
 ) (./main.aux
 (./indexAddOn.aux) (./colophon.aux) (./declarationofownwork.aux)
 (./abstract.aux) (./acknowledgements.aux) (./conventions.aux)
-(./introduction.aux) (./relatedwork.aux) (./ownwork.aux) (./evaluation.aux)
-(./summaryandfuturework.aux) (./appendix_01.aux) (./appendix_02.aux)
-(./acronyme.aux))
+(./introduction.aux) (./relatedwork.aux
+
+LaTeX Warning: Label `fig2' multiply defined.
+
+) (./ownwork.aux) (./evaluation.aux) (./summaryandfuturework.aux)
+(./appendix_01.aux) (./appendix_02.aux) (./acronyme.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -642,7 +645,8 @@ LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Try loading font information for T1+ppl on input line 42.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -698,7 +702,7 @@ Package caption Info: End \AtBeginDocument code.
 \openout2 = `indexAddOn.aux'.
 
  (./indexAddOn.tex)
-<images/titlepage.pdf, id=75, 597.50768pt x 845.04674pt>
+<images/titlepage.pdf, id=87, 597.50768pt x 845.04674pt>
 File: images/titlepage.pdf Graphic file (type pdf)
 
 <use images/titlepage.pdf>
@@ -880,17 +884,6 @@ Overfull \hbox (114.12044pt too wide) in paragraph at lines 36--37
 Kapitel 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 6.
-
-Underfull \hbox (badness 1097) in paragraph at lines 10--11
-\T1/ppl/m/n/10.95 seine Woh-nungstüre. Er hat keinen Schlüs-sel. Kam-eras
- []
-
-
-Underfull \hbox (badness 1097) in paragraph at lines 15--16
-\T1/ppl/m/n/10.95 Stand-punkt aus gut oder schlecht geheiÿen wer-den. Tat-sache
- ist,
- []
-
 [1
 
 
@@ -907,67 +900,94 @@ Kapitel 2.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
 Package acronym Info: Label `acro:CAS' newly defined as it shall be overridden
-although it is yet undefined on input line 9.
+although it is yet undefined on input line 10.
 Package acronym Info: Label `acro:CBRS' newly defined as it shall be overridden
 
-although it is yet undefined on input line 9.
+although it is yet undefined on input line 10.
 Package acronym Info: Label `acro:AAS' newly defined as it shall be overridden
-although it is yet undefined on input line 9.
+although it is yet undefined on input line 10.
 Package acronym Info: Label `acro:IAS' newly defined as it shall be overridden
-although it is yet undefined on input line 9.
+although it is yet undefined on input line 10.
 [5
 
 
-] [6] <images/k_model.jpg, id=347, 602.25pt x 191.71625pt>
+] [6] <images/k_model.jpg, id=368, 602.25pt x 191.71625pt>
 File: images/k_model.jpg Graphic file (type jpg)
 
 <use images/k_model.jpg>
-Package pdftex.def Info: images/k_model.jpg used on input line 18.
-(pdftex.def)             Requested size: 341.44815pt x 120.45131pt.
+Package pdftex.def Info: images/k_model.jpg used on input line 19.
+(pdftex.def)             Requested size: 369.8991pt x 120.45131pt.
 Package acronym Info: Label `acro:ICT' newly defined as it shall be overridden
-although it is yet undefined on input line 23.
- [7]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8 <./images/k_model.jpg>]
+although it is yet undefined on input line 24.
+ [7 <./images/k_model.jpg>] [8]
 Package acronym Info: Label `acro:KM' newly defined as it shall be overridden
-although it is yet undefined on input line 25.
-
-Underfull \hbox (badness 1137) in paragraph at lines 30--30
-[]\T1/ppl/b/n/14.4 Machine Learn-ing and Knowl-edge Man-age-
- []
-
-Package acronym Info: Label `acro:DM' newly defined as it shall be overridden
-although it is yet undefined on input line 31.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9]
+although it is yet undefined on input line 26.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 33.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 32.
+Package acronym Info: Label `acro:HCI' newly defined as it shall be overridden
+although it is yet undefined on input line 33.
+Package acronym Info: Label `acro:AT' newly defined as it shall be overridden
+although it is yet undefined on input line 33.
+ [9]
+<images/sor.jpg, id=435, 624.3325pt x 178.6675pt>
+File: images/sor.jpg Graphic file (type jpg)
+ <use images/sor.jpg>
+Package pdftex.def Info: images/sor.jpg used on input line 37.
+(pdftex.def)             Requested size: 100.37157pt x 40.14937pt.
+ [10 <./images/sor.jpg>]
+Package acronym Info: Label `acro:DM' newly defined as it shall be overridden
+although it is yet undefined on input line 51.
+Package acronym Info: Label `acro:TF-IDF' newly defined as it shall be overridd
+en
+although it is yet undefined on input line 54.
 Package acronym Info: Label `acro:IR' newly defined as it shall be overridden
-although it is yet undefined on input line 34.
-
-<images/granitzer.jpg, id=411, 602.25pt x 407.5225pt>
+although it is yet undefined on input line 54.
+ <images/granitzer.jpg, id=459, 602.25pt x 407.5225pt>
 File: images/granitzer.jpg Graphic file (type jpg)
 
 <use images/granitzer.jpg>
-Package pdftex.def Info: images/granitzer.jpg used on input line 37.
+Package pdftex.def Info: images/granitzer.jpg used on input line 57.
 (pdftex.def)             Requested size: 240.90088pt x 163.01233pt.
- [10 <./images/granitzer.jpg>]) [11] [12
+Package acronym Info: Label `acro:KNN' newly defined as it shall be overridden
+although it is yet undefined on input line 62.
+Package acronym Info: Label `acro:NB' newly defined as it shall be overridden
+although it is yet undefined on input line 62.
+Package acronym Info: Label `acro:SVM' newly defined as it shall be overridden
+although it is yet undefined on input line 62.
 
 
+LaTeX Warning: Command \^ invalid in math mode on input line 62.
 
-]
+[11] <images/caad.jpg, id=478, 401.5pt x 293.095pt>
+File: images/caad.jpg Graphic file (type jpg)
+ <use images/caad.jpg>
+Package pdftex.def Info: images/caad.jpg used on input line 69.
+(pdftex.def)             Requested size: 200.75562pt x 130.48723pt.
+
+[12 <./images/granitzer.jpg>]
+Package acronym Info: Label `acro:GaP' newly defined as it shall be overridden
+although it is yet undefined on input line 86.
+Package acronym Info: Label `acro:LSA' newly defined as it shall be overridden
+although it is yet undefined on input line 86.
+
+<images/cloud.jpg, id=495, 750.805pt x 727.71875pt>
+File: images/cloud.jpg Graphic file (type jpg)
+ <use images/cloud.jpg>
+Package pdftex.def Info: images/cloud.jpg used on input line 90.
+(pdftex.def)             Requested size: 130.4878pt x 130.48404pt.
+)
+[13 <./images/caad.jpg>] [14 <./images/cloud.jpg>]
 \openout2 = `ownwork.aux'.
 
-
-(./ownwork.tex
+ (./ownwork.tex
 Kapitel 3.
-) [13
+) [15
 
 
-] [14
+
+
+
+] [16
 
 
 
@@ -976,18 +996,6 @@ Kapitel 3.
 
  (./evaluation.tex
 Kapitel 4.
-) [15
-
-
-] [16
-
-
-
-]
-\openout2 = `summaryandfuturework.aux'.
-
- (./summaryandfuturework.tex
-Kapitel 5.
 ) [17
 
 
@@ -996,10 +1004,10 @@ Kapitel 5.
 
 
 ]
-\openout2 = `appendix_01.aux'.
+\openout2 = `summaryandfuturework.aux'.
 
- (./appendix_01.tex
-Anhang A.
+ (./summaryandfuturework.tex
+Kapitel 5.
 ) [19
 
 
@@ -1008,14 +1016,26 @@ Anhang A.
 
 
 ]
-\openout2 = `appendix_02.aux'.
+\openout2 = `appendix_01.aux'.
 
- (./appendix_02.tex
-Anhang B.
+ (./appendix_01.tex
+Anhang A.
 ) [21
 
 
 ] [22
+
+
+
+]
+\openout2 = `appendix_02.aux'.
+
+ (./appendix_02.tex
+Anhang B.
+) [23
+
+
+] [24
 
 
 
@@ -1025,24 +1045,19 @@ Anhang B.
  (./acronyme.tex
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 1.
-) [23
+) [25
 
 
 
-] (./main.bbl [24
+] (./main.bbl [26
 
 
 
-] [25]
-Underfull \hbox (badness 1158) in paragraph at lines 78--83
-[]\T1/ppl/m/n/10.95 Thomas Hofer, Wieland Schwinger, Mario Pich-ler, Ger-hard L
-eon-
- []
-
-) [26] (./main.ind) [27
+] [27] [28]) [29] [30
 
 
-] [28]
+]
+(./main.ind) [31] [32]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
  (./main.aux (./indexAddOn.aux) (./colophon.aux)
@@ -1053,37 +1068,39 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C1E569E5D86602DDDC28DD1B533687E5;1024.
+(rerunfilecheck)             Checksum: FB62FCE1E2B19AD1194FA7B0650A01AE;1245.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 9256 strings out of 495059
- 132671 string characters out of 3182031
- 233757 words of memory out of 3000000
- 11995 multiletter control sequences out of 15000+200000
+ 9365 strings out of 495059
+ 134020 string characters out of 3182031
+ 232877 words of memory out of 3000000
+ 12070 multiletter control sequences out of 15000+200000
  86517 words of font info for 97 fonts, out of 3000000 for 9000
  18 hyphenation exceptions out of 8191
- 40i,12n,51p,5752b,505s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,11n,48p,5752b,517s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
-fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
-}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/typ
-e1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></us
-r/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
-/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uh
-vr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (46 pages, 921973 bytes).
+fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
+}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc
+/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/p
+alatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr
+8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (50 pages, 1031199 bytes).
 PDF statistics:
- 570 PDF objects out of 1000 (max. 8388607)
- 475 compressed objects within 5 object streams
- 109 named destinations out of 1000 (max. 500000)
- 160 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 675 PDF objects out of 1000 (max. 8388607)
+ 569 compressed objects within 6 object streams
+ 140 named destinations out of 1000 (max. 500000)
+ 199 words of extra memory for PDF output out of 10000 (max. 10000000)
 
