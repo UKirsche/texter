@@ -1,22 +1,24 @@
 \select@language {ngerman}
-\contentsline {chapter}{\numberline {}Abstract}{xi}{chapter*.4}
-\contentsline {chapter}{\numberline {}\"Uberblick}{xiii}{chapter*.5}
-\contentsline {chapter}{\numberline {}Acknowledgements}{xv}{chapter*.6}
-\contentsline {chapter}{\numberline {}Conventions}{xvii}{chapter*.7}
+\contentsline {chapter}{\numberline {}Abstract}{xi}{chapter*.7}
+\contentsline {chapter}{\numberline {}\"Uberblick}{xiii}{chapter*.8}
+\contentsline {chapter}{\numberline {}Acknowledgements}{xv}{chapter*.9}
+\contentsline {chapter}{\numberline {}Conventions}{xvii}{chapter*.10}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Related work}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Knowledge and Task Mining}{5}{section.2.1}
 \contentsline {section}{\numberline {2.2}Psychological Theories}{9}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Activity Theory}{9}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}Machine Learning and Knowledge Management}{11}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Supervised Machine Learning}{11}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Unsupervised Machine Learning}{12}{subsection.2.3.2}
-\contentsline {chapter}{\numberline {3}Own work}{15}{chapter.3}
-\contentsline {chapter}{\numberline {4}Evaluation}{17}{chapter.4}
-\contentsline {chapter}{\numberline {5}Summary and future work}{19}{chapter.5}
-\contentsline {section}{\numberline {5.1}Summary and contributions}{19}{section.5.1}
-\contentsline {section}{\numberline {5.2}Future work}{19}{section.5.2}
-\contentsline {chapter}{\numberline {A}TITLE OF THE FIRST APPENDIX}{21}{appendix.A}
-\contentsline {chapter}{\numberline {B}TITLE OF THE SECOND APPENDIX}{23}{appendix.B}
-\contentsline {chapter}{\numberline {}Bibliography}{26}{appendix.B}
-\contentsline {chapter}{\numberline {}Index}{31}{appendix*.29}
+\contentsline {subsection}{\numberline {2.2.1}\ac {MHP} und \ac {GOMS}}{9}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Activity Theory}{11}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Actor Network Theory and Distributed Cognition}{13}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Machine Learning and Knowledge Management}{14}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Supervised Machine Learning}{15}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Unsupervised Machine Learning}{16}{subsection.2.3.2}
+\contentsline {chapter}{\numberline {3}Own work}{19}{chapter.3}
+\contentsline {chapter}{\numberline {4}Evaluation}{21}{chapter.4}
+\contentsline {chapter}{\numberline {5}Summary and future work}{23}{chapter.5}
+\contentsline {section}{\numberline {5.1}Summary and contributions}{23}{section.5.1}
+\contentsline {section}{\numberline {5.2}Future work}{23}{section.5.2}
+\contentsline {chapter}{\numberline {A}TITLE OF THE FIRST APPENDIX}{25}{appendix.A}
+\contentsline {chapter}{\numberline {B}TITLE OF THE SECOND APPENDIX}{27}{appendix.B}
+\contentsline {chapter}{\numberline {}Bibliography}{30}{appendix.B}
+\contentsline {chapter}{\numberline {}Index}{35}{appendix*.36}

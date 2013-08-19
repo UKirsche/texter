@@ -6,6 +6,7 @@
 \chapter{Related work}
 \label{relatedwork}
 \section{Knowledge and Task Mining}
+\label{knowledgeandtask}
 In the computer scientific field of knowledge and task mining is no new subject.\mnote{Context-Aware Systems} With the rise of mobile computing devices the term \ac{CAS} was created. The meaning and definition are disputed. First publications referred to a user's location: in different places usually different contextual parameters are relevant. For example a diver that is ascending from deep water has to be made aware of resting times before emerging to the surface.Another example was the \textit{Active Badge Location System} in 1992 that detected the whereabouts of a person and in order to forward relevant phone calls to telephones close targeted person (\cite{want1992active}). Such systems adapt not only to the location but also to other relevant and changing parameters in the surroundings (\cite{schilit1994context}). This definition was widened in 1998 where context was referred to not only the computer accessible parameters of the surroundings but also the emotional state, focus of attention, date and time as well as people in the environment (\cite{dey1998context}). The new aspect of internal parameters like focus of attention was then referred to a further elaboration of the definition: the internal (logical) and external context: Internal context parameters are specified by the user in interaction with the computer like goals, tasks, work context, business processes and emotional state. External parameters are usually measured by hardware sensors, i.e. location, light, sound, movement, temperature, pressure etc. (\cite{hofer2003context}). The contextual parameters can be grouped into four categories: identity (marked by a unique identifier), the location (an entity’s position), activity (status, meaning the intrinsic properties of an entity, e.g., temperature and lightning for a room, processes running currently on a device etc.) and time (timestamps, \cite{dey2001conceptual}). An example of the use of internal data for extracting context is the \textit{Watson Project} \cite{budzik2000user}. Here the focus is shifted for collecting contextual information from user interaction with the computer in order to proactively support the user. Proactivity is a term that  originates in organizational psychology and describes the ability of workers to not react to situations, but sense upcoming situational changes in advance and take control (\cite{grant2008dynamics}). As work gets more dependent of the retrieval and analysis of information, a proactive support system shall help the user in his various tasks by providing him with relevant information. This approach had further implications as gathering information from the user interaction with his computer requires techniques from information retrieval and computer linguistics. In this case the documents a user works with are analyzed and keywords are stored as vectors or a bag of words. The relevant keywords shall help to narrow the topical context a user is working on. Keywords than help to start searches with relevant search terms and provide the user with the information he needs (\cite{budzik2000user}). \mnote{Context-based Recommender Systems} As a single user is often not able to find the needed information, his typical search patterns are compared with those of other users. In these cases as \textit{user model} is created, and his search terms are compared to those of other users' and the documents they found. If keywords are matching, documents of those others users are recommended (\cite{anand2007contextual}). This approach is called \ac{CBRS} recommendation and their related techniques like user-collaborative filtering are applied in search engines like Amazon \footnote{www.amazon.com}.\ac{AAS} at last have different focus: The guiding principle of \acs{AAS} is that users have limited cognitive resources and are distracted easily \mnote{Attention-aware systems}. They suffer from an \textit{information overload} as they jump quickly from one resource to the next in the same and different workings tasks. Whilst it is beneficial to be able to change foci in certain situations, in others it is exhausting. Therefore systems capable of supporting and guiding user attention have to assess the current user focus, and calculate the cost/benefits of attention shifts (interruptions). As this explanation shows, \acs{AAS} have a foundation in cognitive psychology, i.e. how attention is elicited, distracted and shifting over time. Experimental setups include multiple sensor arrays like  gaze-tracking-, gesture-tracking, speech-detection and systems that measure the physiological cues (\cite{roda2006attention}). But there are also non-sensory based approaches that record users' interaction with software (\cite{horvitz2003models}, \cite{schmitz2011contextualized}). Attention management architectures expand the agenda of context-based systems, as they want not only to detect the current state of the attention of users, but also want provide support. Therefore not only the attentional state has to be tracked but the system needs to establish the users' goals and current tasks and also the happenings in the environment (\cite{roda2006attention}). Consequently this lead to the proclamation \ac{IAS}. This approach combines \acs{CAS} and \acs{AAS} by explicating individual and implicit intentions and plans of users' to reason about attention and context information. Dealing with context and attention means dealing with uncertainty \mnote{Intention-Aware Systems}. Explicated task models, so the idea, could help to increase the chances in proactive support. The term "'intention"' is  approached in the following way(\cite{cohen1990intention}):
 \begin{quotation}
   Intention has often been analyzed differently from other mental states such as belief and knowledge. First, whereas the content of beliefs and knowledge is usually considered to be in the form of propositions, the content of an intention is typically regarded as an action. For example, Castefiada treats the content of an intention as a "`practition"' similar to an action description \dots. It is claimed that by doing so, and by strictly separating the logic of propositions from the logic of practitions, one avoids undesirable properties in the logic of intention, such as the fact that if one intends to do an action a one must also intend to do a or b. However, it has also been argued that needed connections between propositions and practitions may not be derivable.
@@ -27,6 +28,59 @@ As a whole, the efforts explained belong to the research field of \ac{KM} and as
 Scientific management \dots has for its very foundation the firm conviction that the true interests of the two (\textit{employé and employer}) are the one and the same; that prosperity for the employer cannot exist through a long term of years unless it is accompanied by prosperity for the employé, and vice versa.
 \end{quotation}
 
+\section{Psychological Theories}
+\subsection{\ac{MHP} und \ac{GOMS}}
+They seem to be the equivalent of the researches done by Taylor: typically time estimates of well defined tasks. Problems become obvious when dealing with questions like workload, parallel processing and undefined tasks. Many different ways to solution possible? what to chunk? 
+
+\subsection{Activity Theory}
+Besides the behavioristic approaches mentioned in chapter \ref{knowledgeandtask}, task analysis had another impact in the field of \ac{HCI} in the form of the \ac{AT}. \acs{AT} is a psychological metatheory developed in Russia with its main protagonists being Vygotsky, Rubinshtein, Leont'ev, Zeigarnik and Ovsiankina  and in its original ideas inspired by Lewin. Activity theorists, although developing a meta theoretic terminology, were interested in solving practical problems like helping mentally or physically handicapped children, educational testing and ergonomics etc. Activity theory is a powerful and clarifying descriptive tool rather than a strongly predictive theory (\cite{nardi1996activity}). Activity theory begins with a general criticism of the subject and interpretation in psychology (\cite{leont1974problem}): Psychology separates object and subject in order to get a direct relation in the form of, f.ex. $S-R$ approaches, whether they are cognitively mediated or not. Another example is a typical experimental setup that artificially creates an environment (a so-called \textit{standardized} environment as a \textit{ceterus paribus} condition), that does not fit the socio-economical surroundings of the human being. Nevertheless it generalizes its findings to that extent. Like in cybernetics it seems to postulate a cyclic feedback between an actor and its surroundings: 
+
+\begin{figure}[ht]
+	\centering
+  \includegraphics[width=100px, height=40px]{sor}
+	\caption{Feedback of SOR}
+	\label{fig2}
+\end{figure}
+
+But the feedback mechanism is more complex, as the \textit{persona} becomes visible in its activity that is influenced, motivated and guided by cultural and internalized artifacts. The person thus is acting upon the world and changing it, changing culture and thus changing himself again. To understand its motivation, external activity must be observed and brought in relation with the other factors. Activity therefore theorists argue that consciousness is not a set of discrete isolated cognitive acts (decision making, classification, remembering, reasoning), and certainly it is not the brain: consciousness is located in everyday practice. Doing is firmly embedded in the social matrix of which every person is an organic part. The social matrix is composed of people and artifacts. Artifacts may be physical tools or sign systems such as human language. Understanding the interaction of the individual, other people, and artifacts in everyday activity is the challenge activity theory has set for itself (\cite{nardi1996activity}). The complex arrangement can be seen in figure \ref{fig3} (\cite{bryant2005becoming}).
+
+\begin{figure}[ht]
+	\centering
+  \includegraphics[width=220px, height=180px]{activity_theory}
+	\caption{Components of Activity Theory}
+	\label{fig3}
+\end{figure}
+
+
+As this approach is complex it is strongly simplified in task analysis. As f.ex. described in an experiment by Rattenburry (\cite{rattenbury2007caad}) using an unsupervised system called CAAD to detect tasks:
+\begin{quotation}
+We draw primarily from Activity Theory (AT). Activities are the key structure in AT. They are composed of a subject, tools and an objective. The subject is the person, or persons, motivated to carry out and achieve the objective of the activity. The actions performed in an activity are mediated by tools. Tools include everything from found objects like sticks to manufactured objects like hammers to abstract, non-physical objects like words and ideas. In terms of CAAD, users are subjects and documents, folders, applications, and email addresses are tools. In the next section, we discuss how CAAD finds, represents, and uses context structures. Activities are generally long-term structures whose stability derives from their motivating objective. In working on an activity, however, people tend to focus on shorter-term goals. These goals organize the actions that people perform e.g. sending an email, writing a section of a paper, or painting a room. Both actions and the activities they service involve a fairly stable set of subjects (i.e. people) and tools. This stable set of people and tools constitutes the context structure of the user’s action and activity. CAAD searches for these stable sets in the event logs it gathers.
+\end{quotation}
+
+\subsection{Actor Network Theory and Distributed Cognition}
+The \ac{ANT} is related to the \acs{AT} as it takes a similar analytical position: Human and their functionality can not be described independently of the tools they are working with. For example a scientist would not be a scientist anymore if he was deprived of his desk, his journals, books and computer. The scientist in his function as a scientist is working and interacting with a \textit{heterogenous network} (\cite{law1992notes}). This network and the interactions are the basic building block for understanding the organization as whole, may it be a company, a state or another kind of union. In this view, machines and humans are not separated, they are part of a bigger system. Humans usually don't interact without tools, may this be a blackboard or a beamer. Interaction is  \textit{mediated}.
+\begin{quotation}
+  \dots what counts as a person is an effect generated by a network of heterogenous, interaction materials. \dots people are who they are because they are a patterned network of heterogeneous materials. \dots So when \acs{ANT} explores the character of an organization, it treats this as an effect or a consequence - the effect of interaction between materials and strategies of the organization (\cite{law1992notes}).
+\end{quotation}
+
+The theory of \ac{DC} uses the \acs{ANT} as a foundation and elaborates it to be usable in the sens of the \acs{AT}. At first the term \textit{cognition} is pushed forward again. It can be thought of as the inner representation of a \textit{heterogeneous} interaction (\cite{hutchins2000distributed}). A process here is not cognitive because it happens in the brain. It is enclosed in the relationship among the elements that participate. The guidelines are (\cite{hollan2000distributed}):
+\begin{enumerate}
+  \item Cognitive processes are distributed across the members of a social group, including emerging phenomena of social interactions
+  \item Cognitive processes involve coordination between internal and external (material or environmental) structure
+  \item Cognitive processes are mediated by culture
+\end{enumerate}
+
+As the cognitive processes are brought to light by activities the main focus of observation are \textit{events}. But events are not isolated or a mere collections of observational data, they have to be brought into the context of the situation and require different observational technologies (Interviews, Audio, Video). They show how information is arranged by interaction. The complex arrangement of the \ac{DC} approach can be seen in figure
+
+\begin{figure}[ht]
+	\centering
+  \includegraphics[width=200px, height=100px]{distributed}
+	\caption{Research areas in \ac{DC}}
+	\label{fig4}
+\end{figure}
+
+Figure \ref{fig4} resembles figure \ref{fig2}. But \ac{DC} extends the approach of \ac{AT} as it specifies how experiments should be done: taking the aspects of figure \ref{fig4} into account the experiments reveals the interactions between the components. As interaction includes the experiment itself, or the new tools, it becomes an artifact in itself. Experiments are seen as "'settings in which people make use of variety of material ans social resources in order to produce socially acceptable behavior."'. Experiments, if promising, are re-run in order to see changes in the distributed cognition. This iterative approach fits the change in the workflow as more organic. A typical example for a distributed designed experiment is a study done by \cite{denef2008handy}, where an orientation system in burning and smoking buildings for fire fighters was developed. The solutions proposed were tested in real world situations with fire fighters and strongly discussed afterwards. The aim was not only to find a technically performing platform but a new solutions that fit the operation plans of firefighters and even enhance their procedures in natural settings.
+
 \section{Machine Learning and Knowledge Management}
 Most KM and \ac{DM} techniques involve learning patterns from existing data or information, and are therefore built upon the foundation of machine learning and artificial intelligence. The primary techniques that can be used by the organizations usually are statistical analysis, pattern discovery and outcome prediction. A variety of non-typical data can be similarly monitored. Before the advent of \acs{DM} and \acs{KM} techniques, the organizations relied almost exclusively on human expertise (\cite{tsai2012knowledge}). In the following the general approaches in \acs{DM} for \acs{KM} are discussed.
 
@@ -41,7 +95,35 @@ A typical example for supervised task learning is an approach called 'bag of wor
 
 In this case, subsequent events are aggregated to so-called \textit{event blocks}. The rule for creating these blocks can be 'time': events that take place within a small time period, or semantic characteristics defined by applications like \textit{editing} a text file. An example for this mapping would be: A user opens a text file with his text processing application, navigates to a certain paragraph, begins reading and then writing (as reading is usually recognized by scrolling within the application). These would map to an event block with a corresponding semantic meaning (see below) that could be called: \textit{edit a word document}. Event blocks have \textit{features or attributes} that are part of the event log format. The features used by the authors were: Application name, window title, content and semantic type. Of these, the semantic type is the prevalent feature described above for building event blocks, if the application provides according detailed information. If this is not the case, data is furthermore preprocessed to be used as a 'bag-of-words' for each event block. To this ends the features are summarized in word vector, stopwords are removed and then the words are \textit{stemmed} which means the words are reduced to their root. An example for this is the stem 'dog' that is extracted from words like: doggy, doglike, dogs etc. To get the meaningful terms the \acs{TF-IDF}-measure is computed, that extracts meaningful words from the event-block. The result then is used as a classifier for the machine-learning algorithms.  Classifying hereby is done with a supervised approach where users train the algorithms with task labels given to the found event-block clusters. Classifiers used were \ac{KNN}, \ac{NB} and \ac{SVM}. The authors report an accuracy rate for this approach with an average of $Â = 74.1$ with a standard-deviation of $\sigma = 8.2$.
 
+\subsection{Unsupervised Machine Learning}
+Unsupervised approaches also use clustering algorithms to group contextual artifacts. In \cite{rattenbury2007caad} the man-machine interaction was logged according to a pull approach: this means not operating system was triggering the events but a special program that checked for events every 2 seconds. 
 
+\begin{figure}[ht]
+	\centering
+  \includegraphics[width=200px,height=130px]{caad}
+	\caption{Classifying events}
+	\label{fig3}
+\end{figure}
 
+Figure \ref{fig3} shows the timeline of activated applications (firefox, winword, gimp, excel, explorer).
+
+\begin{center}
+  \begin{math}
+  D=
+  \bordermatrix{
+  & 1 & 2 & 3 & 4 & 5 \cr
+  & 15 & 10 & 5 & 10 & 5\cr
+  & 15 & 10 & 15 & 15 & 15}
+  \end{math}\\
+\end{center}
+
+If the logger checks for activated applications every to seconds, a frequency matrix composed of 30 second time intervals looks like the matrix depicted above. The first row marks the application numbers. The subsequent rows for each column show the activation frequency in the 30 second time interval if an activation check occurs every two seconds. \textit{Firefox} was active for the whole shown 60 seconds thus the first column of the matrix has to entries with the value $15$. \textit{Winword} on the other hand, was active from second 10 to second 50 resulting in two entries of the value $10$ etc. A single row shows the context structure with in the 60 second time period. The values show the probabilities of observing a certain artifact within the context. The non-negative matrices are then feed into an algorithm called \ac{GaP} being a subform of \ac{LSA} (\cite{canny2004gap}). As a result users get view of their task-related context-features in unobtrusive cloud tags.
+
+\begin{figure}[ht]
+	\centering
+  \includegraphics[width=130px,height=130px]{cloud}
+	\caption{Context cloud}
+	\label{fig4}
+\end{figure}
 
   

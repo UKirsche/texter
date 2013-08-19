@@ -1,4 +1,4 @@
-\begin{thebibliography}{26}
+\begin{thebibliography}{34}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -10,6 +10,18 @@ Sarabjot~Singh Anand and Bamshad Mobasher.
 \newblock Contextual recommendation.
 \newblock In \emph{From web to social web: Discovering and deploying user and
   content profiles}, pages 142--160. Springer, 2007.
+
+\bibitem[Annett and Duncan(1967)]{annett1967task}
+John Annett and Keith~D Duncan.
+\newblock Task analysis and training design.
+\newblock 1967.
+
+\bibitem[Bryant et~al.(2005)Bryant, Forte, and Bruckman]{bryant2005becoming}
+Susan~L Bryant, Andrea Forte, and Amy Bruckman.
+\newblock Becoming wikipedian: transformation of participation in a
+  collaborative online encyclopedia.
+\newblock In \emph{Proceedings of the 2005 international ACM SIGGROUP
+  conference on Supporting group work}, pages 1--10. ACM, 2005.
 
 \bibitem[Budzik and Hammond(2000)]{budzik2000user}
 Jay Budzik and Kristian~J Hammond.
@@ -25,6 +37,11 @@ John Canny.
   conference on Research and development in information retrieval}, pages
   122--129. ACM, 2004.
 
+\bibitem[Card et~al.(1986)Card, Moran, and Newell]{card1986model}
+Stuart~K Card, Thomas~P Moran, and Allen Newell.
+\newblock The model human processor: An engineering model of human performance.
+\newblock \emph{Handbook of Human Perception}, 2, 1986.
+
 \bibitem[Cohen and Levesque(1990)]{cohen1990intention}
 Philip~R Cohen and Hector~J Levesque.
 \newblock Intention is choice with commitment.
@@ -36,6 +53,13 @@ Cynthia Creighton.
 \newblock The origin and evolution of activity analysis.
 \newblock \emph{The American Journal of Occupational Therapy}, 46\penalty0
   (1):\penalty0 45--48, 1992.
+
+\bibitem[Denef et~al.(2008)Denef, Ramirez, Dyrks, and Stevens]{denef2008handy}
+Sebastian Denef, Leonardo Ramirez, Tobias Dyrks, and Gunnar Stevens.
+\newblock Handy navigation in ever-changing spaces: an ethnographic study of
+  firefighting practices.
+\newblock In \emph{Proceedings of the 7th ACM conference on Designing
+  interactive systems}, pages 184--192. ACM, 2008.
 
 \bibitem[Dey(1998)]{dey1998context}
 Anind~K Dey.
@@ -88,6 +112,13 @@ Thomas Hofer, Wieland Schwinger, Mario Pichler, Gerhard Leonhartsberger, Josef
 \newblock In \emph{System Sciences, 2003. Proceedings of the 36th Annual Hawaii
   International Conference on}, pages 10--pp. IEEE, 2003.
 
+\bibitem[Hollan et~al.(2000)Hollan, Hutchins, and Kirsh]{hollan2000distributed}
+James Hollan, Edwin Hutchins, and David Kirsh.
+\newblock Distributed cognition: toward a new foundation for human-computer
+  interaction research.
+\newblock \emph{ACM Transactions on Computer-Human Interaction (TOCHI)},
+  7\penalty0 (2):\penalty0 174--196, 2000.
+
 \bibitem[Horvitz et~al.(2003)Horvitz, Kadie, Paek, and
   Hovel]{horvitz2003models}
 Eric Horvitz, Carl Kadie, Tim Paek, and David Hovel.
@@ -95,6 +126,18 @@ Eric Horvitz, Carl Kadie, Tim Paek, and David Hovel.
   to applications.
 \newblock \emph{Communications of the ACM}, 46\penalty0 (3):\penalty0 52--59,
   2003.
+
+\bibitem[Hutchins(2000)]{hutchins2000distributed}
+Edwin Hutchins.
+\newblock Distributed cognition.
+\newblock \emph{Internacional Enciclopedia of the Social and Behavioral
+  Sciences}, 2000.
+
+\bibitem[Law(1992)]{law1992notes}
+John Law.
+\newblock Notes on the theory of the actor-network: ordering, strategy, and
+  heterogeneity.
+\newblock \emph{Systems practice}, 5\penalty0 (4):\penalty0 379--393, 1992.
 
 \bibitem[Leont'ev(1974)]{leont1974problem}
 Aleksei~N Leont'ev.
@@ -112,6 +155,13 @@ Bonnie~A Nardi.
 Allen Newell, Herbert~Alexander Simon, et~al.
 \newblock \emph{Human problem solving}, volume~14.
 \newblock Prentice-Hall Englewood Cliffs, NJ, 1972.
+
+\bibitem[Olson and Olson(1990)]{olson1990growth}
+Judith~Reitman Olson and Gary~M Olson.
+\newblock The growth of cognitive modeling in human-computer interaction since
+  goms.
+\newblock \emph{Human--computer interaction}, 5\penalty0 (2-3):\penalty0
+  221--265, 1990.
 
 \bibitem[Rattenbury and Canny(2007)]{rattenbury2007caad}
 Tye Rattenbury and John Canny.
