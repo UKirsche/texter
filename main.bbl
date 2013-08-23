@@ -1,4 +1,4 @@
-\begin{thebibliography}{34}
+\begin{thebibliography}{40}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -30,6 +30,11 @@ Jay Budzik and Kristian~J Hammond.
 \newblock In \emph{Proceedings of the 5th international conference on
   Intelligent user interfaces}, pages 44--51. ACM, 2000.
 
+\bibitem[B{\"u}hl(1997)]{buhl1997virtuelle}
+Achim B{\"u}hl.
+\newblock Die virtuelle gesellschaft in realisierten anwendungen.
+\newblock In \emph{Die virtuelle Gesellschaft}, pages 167--210. Springer, 1997.
+
 \bibitem[Canny(2004)]{canny2004gap}
 John Canny.
 \newblock Gap: a factor model for discrete data.
@@ -54,6 +59,12 @@ Cynthia Creighton.
 \newblock \emph{The American Journal of Occupational Therapy}, 46\penalty0
   (1):\penalty0 45--48, 1992.
 
+\bibitem[Davenport et~al.(2012)Davenport, Thomas, and
+  Cantrell]{davenport2012mysterious}
+Thomas~H Davenport, Robert~J Thomas, and Susan Cantrell.
+\newblock The mysterious art and science of knowledge-worker performance.
+\newblock \emph{MIT Sloan Management Review}, 44\penalty0 (1), 2012.
+
 \bibitem[Denef et~al.(2008)Denef, Ramirez, Dyrks, and Stevens]{denef2008handy}
 Sebastian Denef, Leonardo Ramirez, Tobias Dyrks, and Gunnar Stevens.
 \newblock Handy navigation in ever-changing spaces: an ethnographic study of
@@ -73,6 +84,16 @@ Anind~K Dey, Gregory~D Abowd, and Daniel Salber.
   prototyping of context-aware applications.
 \newblock \emph{Human-computer interaction}, 16\penalty0 (2):\penalty0 97--166,
   2001.
+
+\bibitem[Dodge and Kitchin(2001)]{dodge2001atlas}
+Martin Dodge and Rob Kitchin.
+\newblock \emph{Atlas of cyberspace}.
+\newblock Addison-Wesley London, 2001.
+
+\bibitem[Drucker(1999)]{drucker1999knowledge}
+Peter~F Drucker.
+\newblock Knowledge-worker productivity: The biggest challenge.
+\newblock \emph{The knowledge management yearbook 2000-2001}, 1999.
 
 \bibitem[Eder and Liebhart(1995)]{eder1995workflow}
 Johann Eder and Walter Liebhart.
@@ -201,6 +222,11 @@ Hans-Christian Schmitz, Uwe Kirschenmann, Katja Niemann, and Martin Wolpers.
 \newblock Contextualized attention metadata, in claudia roda (hrsg.
 \newblock 2011.
 
+\bibitem[Sp{\"a}th and Kelter(2009)]{spaeth2009info}
+Dieter Sp{\"a}th and J{"o}rg Kelter.
+\newblock \emph{Information Work 2009}.
+\newblock Udo-Ernst Haner, 2009.
+
 \bibitem[Taylor(2013)]{taylor2013scientific}
 Frederick~Winslow Taylor.
 \newblock \emph{Scientific management}.
@@ -211,6 +237,14 @@ Hsu-Hao Tsai.
 \newblock Knowledge management vs. data mining: Research trend, forecast and
   citation approach.
 \newblock \emph{Expert Systems with Applications}, 2012.
+
+\bibitem[Voida et~al.(2002)Voida, Mynatt, MacIntyre, and
+  Corso]{voida2002integrating}
+Stephen Voida, Elizabeth~D Mynatt, Blair MacIntyre, and Gregory~M Corso.
+\newblock Integrating virtual and physical context to support knowledge
+  workers.
+\newblock \emph{Pervasive Computing, IEEE}, 99\penalty0 (3):\penalty0 73--79,
+  2002.
 
 \bibitem[Want et~al.(1992)Want, Hopper, Falc{\~a}o, and
   Gibbons]{want1992active}
