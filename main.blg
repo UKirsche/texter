@@ -21,47 +21,50 @@ Repeated entry---line 200 of file ../literature/knowledge.bib
  : @article{schmitz2011contextualized
  :                                   ,
 I'm skipping whatever remains of this entry
+Warning--empty journal in allport1935attitudes
 Warning--empty journal in annett1967task
+Warning--empty journal in bandura1977social
+Warning--empty journal in bem1973self
 Warning--empty journal in schmitz2011contextualized
-You've used 40 entries,
+You've used 56 entries,
             2773 wiz_defined-function locations,
-            845 strings with 11829 characters,
-and the built_in function-call counts, 19072 in all, are:
-= -- 1754
-> -- 977
-< -- 38
-+ -- 334
-- -- 294
-* -- 1445
-:= -- 2845
-add.period$ -- 131
-call.type$ -- 40
-change.case$ -- 212
-chr.to.int$ -- 40
-cite$ -- 82
-duplicate$ -- 947
-empty$ -- 1632
-format.name$ -- 356
-if$ -- 4101
+            928 strings with 13742 characters,
+and the built_in function-call counts, 25220 in all, are:
+= -- 2315
+> -- 1211
+< -- 57
++ -- 419
+- -- 363
+* -- 1834
+:= -- 3778
+add.period$ -- 181
+call.type$ -- 56
+change.case$ -- 279
+chr.to.int$ -- 56
+cite$ -- 117
+duplicate$ -- 1298
+empty$ -- 2219
+format.name$ -- 450
+if$ -- 5425
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 45
-newline$ -- 208
-num.names$ -- 160
-pop$ -- 465
+missing$ -- 64
+newline$ -- 288
+num.names$ -- 224
+pop$ -- 627
 preamble$ -- 1
-purify$ -- 177
+purify$ -- 231
 quote$ -- 0
-skip$ -- 719
+skip$ -- 974
 stack$ -- 0
-substring$ -- 769
-swap$ -- 149
-text.length$ -- 15
+substring$ -- 978
+swap$ -- 191
+text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 415
-warning$ -- 2
-while$ -- 189
+type$ -- 576
+warning$ -- 5
+while$ -- 254
 width$ -- 0
-write$ -- 528
+write$ -- 728
 (There was 1 error message)

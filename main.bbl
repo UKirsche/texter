@@ -1,9 +1,14 @@
-\begin{thebibliography}{40}
+\begin{thebibliography}{56}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Allport(1935)]{allport1935attitudes}
+Gordon~W Allport.
+\newblock Attitudes.
+\newblock 1935.
 
 \bibitem[Anand and Mobasher(2007)]{anand2007contextual}
 Sarabjot~Singh Anand and Bamshad Mobasher.
@@ -15,6 +20,28 @@ Sarabjot~Singh Anand and Bamshad Mobasher.
 John Annett and Keith~D Duncan.
 \newblock Task analysis and training design.
 \newblock 1967.
+
+\bibitem[Baldwin and Baird(2001)]{baldwin2001discerning}
+Dare~A Baldwin and Jodie~A Baird.
+\newblock Discerning intentions in dynamic human action.
+\newblock \emph{Trends in cognitive sciences}, 5\penalty0 (4):\penalty0
+  171--178, 2001.
+
+\bibitem[Bandura and McClelland(1977)]{bandura1977social}
+Albert Bandura and David~C McClelland.
+\newblock Social learning theory.
+\newblock 1977.
+
+\bibitem[Bargh(1989)]{bargh1989conditional}
+John~A Bargh.
+\newblock Conditional automaticity: Varieties of automatic influence in social
+  perception and cognition.
+\newblock \emph{Unintended thought}, 3:\penalty0 51--69, 1989.
+
+\bibitem[Bem(1973)]{bem1973self}
+Daryl~J Bem.
+\newblock Self-perception theory1.
+\newblock 1973.
 
 \bibitem[Bryant et~al.(2005)Bryant, Forte, and Bruckman]{bryant2005becoming}
 Susan~L Bryant, Andrea Forte, and Amy Bruckman.
@@ -95,10 +122,20 @@ Peter~F Drucker.
 \newblock Knowledge-worker productivity: The biggest challenge.
 \newblock \emph{The knowledge management yearbook 2000-2001}, 1999.
 
+\bibitem[Durkheim(1933)]{durkheim1933division}
+Emile Durkheim.
+\newblock The division of labor.
+\newblock \emph{Trans. G. Simpson. New York: Macmillan}, 1933.
+
 \bibitem[Eder and Liebhart(1995)]{eder1995workflow}
 Johann Eder and Walter Liebhart.
 \newblock The workflow activity model wamo.
 \newblock In \emph{CoopIS}, volume~15, pages 87--98. Citeseer, 1995.
+
+\bibitem[Festinger(1962)]{festinger1962theory}
+Leon Festinger.
+\newblock \emph{A theory of cognitive dissonance}, volume~2.
+\newblock Stanford university press, 1962.
 
 \bibitem[Gilbreth(1911)]{gilbreth1911motion}
 Frank~Bunker Gilbreth.
@@ -124,6 +161,11 @@ Michael Granitzer, M~Kroll, Christin Seifert, Andreas~S Rath, Nicolas Weber,
 Adam~M Grant and Susan~J Ashford.
 \newblock The dynamics of proactivity at work.
 \newblock \emph{Research in organizational behavior}, 28:\penalty0 3--34, 2008.
+
+\bibitem[Heckhausen and Beckmann(1990)]{heckhausen1990intentional}
+Heinz Heckhausen and J{\"u}rgen Beckmann.
+\newblock Intentional action and action slips.
+\newblock \emph{Psychological Review}, 97\penalty0 (1):\penalty0 36, 1990.
 
 \bibitem[Hofer et~al.(2003)Hofer, Schwinger, Pichler, Leonhartsberger, Altmann,
   and Retschitzegger]{hofer2003context}
@@ -154,6 +196,11 @@ Edwin Hutchins.
 \newblock \emph{Internacional Enciclopedia of the Social and Behavioral
   Sciences}, 2000.
 
+\bibitem[James(2011)]{james2011principles}
+William James.
+\newblock \emph{The principles of psychology}.
+\newblock Digireads.com, 2011.
+
 \bibitem[Law(1992)]{law1992notes}
 John Law.
 \newblock Notes on the theory of the actor-network: ordering, strategy, and
@@ -165,6 +212,11 @@ Aleksei~N Leont'ev.
 \newblock The problem of activity in psychology.
 \newblock \emph{Journal of Russian and East European Psychology}, 13\penalty0
   (2):\penalty0 4--33, 1974.
+
+\bibitem[Mead(2007)]{mead2007movements}
+George~H Mead.
+\newblock \emph{Movements of thought in the nineteenth century}.
+\newblock Read Books, 2007.
 
 \bibitem[Nardi(1996)]{nardi1996activity}
 Bonnie~A Nardi.
@@ -183,6 +235,12 @@ Judith~Reitman Olson and Gary~M Olson.
   goms.
 \newblock \emph{Human--computer interaction}, 5\penalty0 (2-3):\penalty0
   221--265, 1990.
+
+\bibitem[Ouellette and Wood(1998)]{ouellette1998habit}
+Judith~A Ouellette and Wendy Wood.
+\newblock Habit and intention in everyday life: the multiple processes by which
+  past behavior predicts future behavior.
+\newblock \emph{Psychological bulletin}, 124\penalty0 (1):\penalty0 54, 1998.
 
 \bibitem[Rattenbury and Canny(2007)]{rattenbury2007caad}
 Tye Rattenbury and John Canny.
@@ -204,6 +262,12 @@ Claudia Roda and Julie Thomas.
 \newblock \emph{Computers in Human Behavior}, 22\penalty0 (4):\penalty0
   557--587, 2006.
 
+\bibitem[Ronis et~al.(1989)Ronis, Yates, and Kirscht]{ronis1989attitudes}
+David~L Ronis, J~Frank Yates, and John~P Kirscht.
+\newblock Attitudes, decisions, and habits as determinants of repeated
+  behavior.
+\newblock \emph{Attitude structure and function}, pages 213--239, 1989.
+
 \bibitem[Schilit et~al.(1994)Schilit, Adams, and Want]{schilit1994context}
 Bill Schilit, Norman Adams, and Roy Want.
 \newblock Context-aware computing applications.
@@ -222,6 +286,12 @@ Hans-Christian Schmitz, Uwe Kirschenmann, Katja Niemann, and Martin Wolpers.
 \newblock Contextualized attention metadata, in claudia roda (hrsg.
 \newblock 2011.
 
+\bibitem[Siskind(1995)]{siskind1995grounding}
+Jeffrey~Mark Siskind.
+\newblock Grounding language in perception.
+\newblock In \emph{Integration of Natural Language and Vision Processing},
+  pages 207--227. Springer, 1995.
+
 \bibitem[Sp{\"a}th and Kelter(2009)]{spaeth2009info}
 Dieter Sp{\"a}th and J{"o}rg Kelter.
 \newblock \emph{Information Work 2009}.
@@ -231,6 +301,17 @@ Dieter Sp{\"a}th and J{"o}rg Kelter.
 Frederick~Winslow Taylor.
 \newblock \emph{Scientific management}.
 \newblock Routledge, 2013.
+
+\bibitem[Thibadeau(1986)]{thibadeau1986artificial}
+Robert Thibadeau.
+\newblock Artificial perception of actions.
+\newblock \emph{Cognitive Science}, 10\penalty0 (2):\penalty0 117--149, 1986.
+
+\bibitem[Triandis(1979)]{triandis1979values}
+Harry~C Triandis.
+\newblock Values, attitudes, and interpersonal behavior.
+\newblock In \emph{Nebraska symposium on motivation}. University of Nebraska
+  Press, 1979.
 
 \bibitem[Tsai(2012)]{tsai2012knowledge}
 Hsu-Hao Tsai.
@@ -252,5 +333,10 @@ Roy Want, Andy Hopper, Veronica Falc{\~a}o, and Jonathan Gibbons.
 \newblock The active badge location system.
 \newblock \emph{ACM Transactions on Information Systems (TOIS)}, 10\penalty0
   (1):\penalty0 91--102, 1992.
+
+\bibitem[Weber et~al.(1946)]{weber1946social}
+Max Weber et~al.
+\newblock The social psychology of the world religions.
+\newblock \emph{From Max Weber: essays in sociology}, pages 267--301, 1946.
 
 \end{thebibliography}

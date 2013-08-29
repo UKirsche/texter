@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.6.7)  23 AUG 2013 12:09
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.6.7)  29 AUG 2013 18:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -627,6 +627,12 @@ Package color Info: Redefining color red on input line 635.
 LaTeX Warning: Label `fig1' multiply defined.
 
 
+LaTeX Warning: Label `fig2' multiply defined.
+
+
+LaTeX Warning: Label `fig2' multiply defined.
+
+
 LaTeX Warning: Label `fig3' multiply defined.
 
 
@@ -714,7 +720,7 @@ Package caption Info: End \AtBeginDocument code.
 \openout2 = `indexAddOn.aux'.
 
  (./indexAddOn.tex)
-<images/titlepage.pdf, id=103, 597.50768pt x 845.04674pt>
+<images/titlepage.pdf, id=107, 597.50768pt x 845.04674pt>
 File: images/titlepage.pdf Graphic file (type pdf)
 
 <use images/titlepage.pdf>
@@ -816,7 +822,7 @@ although it is yet undefined on input line 12.
 
  [6] (./main.lof
 Package acronym Info: Label `acro:DC' newly defined as it shall be overridden
-although it is yet undefined on input line 9.
+although it is yet undefined on input line 11.
 )
 \tf@lof=\write6
 \openout6 = `main.lof'.
@@ -905,194 +911,175 @@ Overfull \hbox (114.12044pt too wide) in paragraph at lines 36--37
 Kapitel 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 6.
-
-Underfull \vbox (badness 2564) has occurred while \output is active []
-
- [1
+[1
 
 
 
-])
-[2]
+] [2]) [3] [4
+
+
+
+]
 \openout2 = `relatedwork.aux'.
 
  (./relatedwork.tex
 Kapitel 2.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
-<images/digital.jpg, id=335, 526.96875pt x 483.8075pt>
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 10.
+<images/digital.jpg, id=354, 526.96875pt x 483.8075pt>
 File: images/digital.jpg Graphic file (type jpg)
 
 <use images/digital.jpg>
-Package pdftex.def Info: images/digital.jpg used on input line 14.
+Package pdftex.def Info: images/digital.jpg used on input line 16.
 (pdftex.def)             Requested size: 120.44441pt x 120.44957pt.
-Package acronym Info: Label `acro:KM' newly defined as it shall be overridden
-although it is yet undefined on input line 19.
- [3
-
-
-
+ [5
 
 
  <./images/digital.jpg>]
-Underfull \hbox (badness 1694) in paragraph at lines 24--25
+Package acronym Info: Label `acro:KM' newly defined as it shall be overridden
+although it is yet undefined on input line 25.
+
+Underfull \hbox (badness 1694) in paragraph at lines 30--31
 []\T1/ppl/m/n/10.95 According to []Druck-er[] [[]1999[]] the chal-lenge for com
 -pa-nies is to make
  []
 
-[4]
+[6] [7]
 Package acronym Info: Label `acro:CAS' newly defined as it shall be overridden
-although it is yet undefined on input line 40.
+although it is yet undefined on input line 51.
+Package acronym Info: Label `acro:AAS' newly defined as it shall be overridden
+although it is yet undefined on input line 51.
+Package acronym Info: Label `acro:IAS' newly defined as it shall be overridden
+although it is yet undefined on input line 51.
+ <images/knowledge_mining.jpg, id=407, 418.56375pt x 592.2125pt>
+File: images/knowledge_mining.jpg Graphic file (type jpg)
+
+<use images/knowledge_mining.jpg>
+Package pdftex.def Info: images/knowledge_mining.jpg used on input line 56.
+(pdftex.def)             Requested size: 120.4479pt x 190.71371pt.
+ [8 <./images/knowledge_mining.jpg>]
 Package acronym Info: Label `acro:CBRS' newly defined as it shall be overridden
 
-although it is yet undefined on input line 40.
-Package acronym Info: Label `acro:AAS' newly defined as it shall be overridden
-although it is yet undefined on input line 40.
-Package acronym Info: Label `acro:IAS' newly defined as it shall be overridden
-although it is yet undefined on input line 40.
- [5]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6]
-Underfull \vbox (badness 7468) has occurred while \output is active []
-
- [7]
-<images/k_model.jpg, id=453, 602.25pt x 191.71625pt>
-File: images/k_model.jpg Graphic file (type jpg)
- <use images/k_model.jpg>
-Package pdftex.def Info: images/k_model.jpg used on input line 49.
-(pdftex.def)             Requested size: 369.8991pt x 120.45131pt.
-Package acronym Info: Label `acro:ICT' newly defined as it shall be overridden
-although it is yet undefined on input line 54.
-
-Underfull \vbox (badness 1043) has occurred while \output is active []
-
- [8 <./images/k_model.jpg>]
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 58.
-Package acronym Info: Label `acro:HCI' newly defined as it shall be overridden
-although it is yet undefined on input line 62.
+although it is yet undefined on input line 68.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
-<images/goms.jpg, id=504, 602.25pt x 469.755pt>
+[10] <images/k_model.jpg, id=482, 602.25pt x 191.71625pt>
+File: images/k_model.jpg Graphic file (type jpg)
+
+<use images/k_model.jpg>
+Package pdftex.def Info: images/k_model.jpg used on input line 83.
+(pdftex.def)             Requested size: 369.8991pt x 120.45131pt.
+Package acronym Info: Label `acro:ICT' newly defined as it shall be overridden
+although it is yet undefined on input line 90.
+ [11 <./images/k_model.jpg>]
+Package acronym Info: Label `acro:AT' newly defined as it shall be overridden
+although it is yet undefined on input line 95.
+Package acronym Info: Label `acro:ANT' newly defined as it shall be overridden
+although it is yet undefined on input line 95.
+Package acronym Info: Label `acro:HCI' newly defined as it shall be overridden
+although it is yet undefined on input line 95.
+
+<images/psychology.jpg, id=506, 720.6925pt x 511.9125pt>
+File: images/psychology.jpg Graphic file (type jpg)
+
+<use images/psychology.jpg>
+Package pdftex.def Info: images/psychology.jpg used on input line 99.
+(pdftex.def)             Requested size: 200.74782pt x 120.44786pt.
+ [12]
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 105.
+ [13 <./images/psychology.jpg>]
+<images/goms.jpg, id=552, 602.25pt x 469.755pt>
 File: images/goms.jpg Graphic file (type jpg)
  <use images/goms.jpg>
-Package pdftex.def Info: images/goms.jpg used on input line 68.
+Package pdftex.def Info: images/goms.jpg used on input line 115.
 (pdftex.def)             Requested size: 321.21268pt x 281.05237pt.
- [10]
-Package acronym Info: Label `acro:AT' newly defined as it shall be overridden
-although it is yet undefined on input line 90.
 
-[11 <./images/goms.jpg>] <images/sor.jpg, id=533, 624.3325pt x 178.6675pt>
+Underfull \vbox (badness 2277) has occurred while \output is active []
+
+ [14 <./images/goms.jpg>] <images/sor.jpg, id=570, 624.3325pt x 178.6675pt>
 File: images/sor.jpg Graphic file (type jpg)
 
 <use images/sor.jpg>
-Package pdftex.def Info: images/sor.jpg used on input line 94.
+Package pdftex.def Info: images/sor.jpg used on input line 141.
 (pdftex.def)             Requested size: 100.37157pt x 40.14937pt.
-
-<images/activity_theory.jpg, id=539, 477.785pt x 312.16624pt>
+ [15 <./images/sor.jpg>]
+<images/activity_theory.jpg, id=583, 477.785pt x 312.16624pt>
 File: images/activity_theory.jpg Graphic file (type jpg)
 
 <use images/activity_theory.jpg>
-Package pdftex.def Info: images/activity_theory.jpg used on input line 103.
+Package pdftex.def Info: images/activity_theory.jpg used on input line 150.
 (pdftex.def)             Requested size: 220.8263pt x 180.68025pt.
- [12 <./images/sor.jpg> <./images/activity_theory.jpg>]
-Package acronym Info: Label `acro:ANT' newly defined as it shall be overridden
-although it is yet undefined on input line 115.
- [13] <images/distributed.jpg, id=572, 602.25pt x 220.825pt>
+ [16 <./images/activity_theory.jpg>] [17]
+<images/distributed.jpg, id=617, 602.25pt x 220.825pt>
 File: images/distributed.jpg Graphic file (type jpg)
 
 <use images/distributed.jpg>
-Package pdftex.def Info: images/distributed.jpg used on input line 131.
+Package pdftex.def Info: images/distributed.jpg used on input line 178.
 (pdftex.def)             Requested size: 200.74643pt x 100.37444pt.
- [14 <./images/distributed.jpg>]
+ [18 <./images/distributed.jpg>]
+<images/intentions1.jpg, id=664, 813.0375pt x 455.7025pt>
+File: images/intentions1.jpg Graphic file (type jpg)
+
+<use images/intentions1.jpg>
+Package pdftex.def Info: images/intentions1.jpg used on input line 195.
+(pdftex.def)             Requested size: 351.31133pt x 250.94308pt.
+ [19] [20 <./images/intentions1.jpg>]
 Package acronym Info: Label `acro:DM' newly defined as it shall be overridden
-although it is yet undefined on input line 139.
+although it is yet undefined on input line 206.
 Package acronym Info: Label `acro:TF-IDF' newly defined as it shall be overridd
 en
-although it is yet undefined on input line 142.
+although it is yet undefined on input line 209.
 Package acronym Info: Label `acro:IR' newly defined as it shall be overridden
-although it is yet undefined on input line 142.
+although it is yet undefined on input line 209.
 
-<images/granitzer.jpg, id=604, 602.25pt x 407.5225pt>
+<images/granitzer.jpg, id=713, 602.25pt x 407.5225pt>
 File: images/granitzer.jpg Graphic file (type jpg)
 
 <use images/granitzer.jpg>
-Package pdftex.def Info: images/granitzer.jpg used on input line 145.
+Package pdftex.def Info: images/granitzer.jpg used on input line 212.
 (pdftex.def)             Requested size: 240.90088pt x 163.01233pt.
 Package acronym Info: Label `acro:KNN' newly defined as it shall be overridden
-although it is yet undefined on input line 150.
+although it is yet undefined on input line 217.
 Package acronym Info: Label `acro:NB' newly defined as it shall be overridden
-although it is yet undefined on input line 150.
+although it is yet undefined on input line 217.
 Package acronym Info: Label `acro:SVM' newly defined as it shall be overridden
-although it is yet undefined on input line 150.
+although it is yet undefined on input line 217.
 
 
-LaTeX Warning: Command \^ invalid in math mode on input line 150.
+LaTeX Warning: Command \^ invalid in math mode on input line 217.
 
-[15] [16 <./images/granitzer.jpg>]
-<images/caad.jpg, id=634, 401.5pt x 293.095pt>
+[21] <images/caad.jpg, id=735, 401.5pt x 293.095pt>
 File: images/caad.jpg Graphic file (type jpg)
  <use images/caad.jpg>
-Package pdftex.def Info: images/caad.jpg used on input line 157.
+Package pdftex.def Info: images/caad.jpg used on input line 224.
 (pdftex.def)             Requested size: 200.75562pt x 130.48723pt.
-Package acronym Info: Label `acro:GaP' newly defined as it shall be overridden
-although it is yet undefined on input line 174.
-Package acronym Info: Label `acro:LSA' newly defined as it shall be overridden
-although it is yet undefined on input line 174.
 
-<images/cloud.jpg, id=640, 750.805pt x 727.71875pt>
+Underfull \vbox (badness 4805) has occurred while \output is active []
+
+ [22 <./images/granitzer.jpg>]
+Package acronym Info: Label `acro:GaP' newly defined as it shall be overridden
+although it is yet undefined on input line 241.
+Package acronym Info: Label `acro:LSA' newly defined as it shall be overridden
+although it is yet undefined on input line 241.
+ <images/cloud.jpg, id=751, 750.805pt x 727.71875pt>
 File: images/cloud.jpg Graphic file (type jpg)
- <use images/cloud.jpg>
-Package pdftex.def Info: images/cloud.jpg used on input line 178.
+
+<use images/cloud.jpg>
+Package pdftex.def Info: images/cloud.jpg used on input line 245.
 (pdftex.def)             Requested size: 130.4878pt x 130.48404pt.
-)
-[17 <./images/caad.jpg>] [18 <./images/cloud.jpg>]
+) [23 <./images/caad.jpg> <./images/cloud.jpg>] [24
+
+
+
+]
 \openout2 = `ownwork.aux'.
 
- (./ownwork.tex
+
+(./ownwork.tex
 Kapitel 3.
-) [19
-
-
-
-
-
-] [20
-
-
-
-]
-\openout2 = `evaluation.aux'.
-
- (./evaluation.tex
-Kapitel 4.
-) [21
-
-
-] [22
-
-
-
-]
-\openout2 = `summaryandfuturework.aux'.
-
- (./summaryandfuturework.tex
-Kapitel 5.
-) [23
-
-
-] [24
-
-
-
-]
-\openout2 = `appendix_01.aux'.
-
- (./appendix_01.tex
-Anhang A.
 ) [25
 
 
@@ -1101,14 +1088,50 @@ Anhang A.
 
 
 ]
-\openout2 = `appendix_02.aux'.
+\openout2 = `evaluation.aux'.
 
- (./appendix_02.tex
-Anhang B.
+ (./evaluation.tex
+Kapitel 4.
 ) [27
 
 
 ] [28
+
+
+
+]
+\openout2 = `summaryandfuturework.aux'.
+
+ (./summaryandfuturework.tex
+Kapitel 5.
+) [29
+
+
+] [30
+
+
+
+]
+\openout2 = `appendix_01.aux'.
+
+ (./appendix_01.tex
+Anhang A.
+) [31
+
+
+] [32
+
+
+
+]
+\openout2 = `appendix_02.aux'.
+
+ (./appendix_02.tex
+Anhang B.
+) [33
+
+
+] [34
 
 
 
@@ -1118,30 +1141,30 @@ Anhang B.
  (./acronyme.tex
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 1.
-) [29
+) [35
 
 
 
-] (./main.bbl [30
+] (./main.bbl [36
 
 
 
-] [31] [32] [33]) [34]
-(./main.ind) [35
+] [37] [38] [39] [40])
+[41] [42
 
 
-] [36]
+] (./main.ind) [43] [44]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
- (./main.aux (./indexAddOn.aux) (./colophon.aux)
-(./declarationofownwork.aux) (./abstract.aux) (./acknowledgements.aux)
+ (./main.aux (./indexAddOn.aux) (./colophon.aux) (./declarationofownwork.aux) (
+./abstract.aux) (./acknowledgements.aux)
 (./conventions.aux) (./introduction.aux) (./relatedwork.aux) (./ownwork.aux)
 (./evaluation.aux) (./summaryandfuturework.aux) (./appendix_01.aux)
 (./appendix_02.aux) (./acronyme.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6ACD777FFF4831E7122709E8F778E75D;1599.
+(rerunfilecheck)             Checksum: 0CF08FE21484EC9216E13E3013A60CB3;1673.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1149,13 +1172,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 9498 strings out of 495059
- 136394 string characters out of 3182031
- 238963 words of memory out of 3000000
- 12156 multiletter control sequences out of 15000+200000
+ 9602 strings out of 495059
+ 138750 string characters out of 3182031
+ 232699 words of memory out of 3000000
+ 12229 multiletter control sequences out of 15000+200000
  86517 words of font info for 97 fonts, out of 3000000 for 9000
  18 hyphenation exceptions out of 8191
- 40i,12n,51p,5752b,545s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,12n,51p,2018b,579s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
 fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy
 .enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc
@@ -1170,10 +1193,10 @@ exlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf
 /type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/p
 alatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr
 8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (54 pages, 1141842 bytes).
+Output written on main.pdf (62 pages, 1303112 bytes).
 PDF statistics:
- 829 PDF objects out of 1000 (max. 8388607)
- 712 compressed objects within 8 object streams
- 183 named destinations out of 1000 (max. 500000)
- 251 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 954 PDF objects out of 1000 (max. 8388607)
+ 825 compressed objects within 9 object streams
+ 211 named destinations out of 1000 (max. 500000)
+ 274 words of extra memory for PDF output out of 10000 (max. 10000000)
 
