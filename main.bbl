@@ -1,4 +1,4 @@
-\begin{thebibliography}{56}
+\begin{thebibliography}{60}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -42,6 +42,12 @@ John~A Bargh.
 Daryl~J Bem.
 \newblock Self-perception theory1.
 \newblock 1973.
+
+\bibitem[Brooks et~al.(2012)Brooks, Hassabis, Bray, and
+  Shashua]{brooks2012brain}
+Rodney Brooks, Demis Hassabis, Dennis Bray, and Amnon Shashua.
+\newblock Is the brain a good model for machine intelligence?
+\newblock \emph{Nature}, 482:\penalty0 462--463, 2012.
 
 \bibitem[Bryant et~al.(2005)Bryant, Forte, and Bruckman]{bryant2005becoming}
 Susan~L Bryant, Andrea Forte, and Amy Bruckman.
@@ -137,6 +143,14 @@ Leon Festinger.
 \newblock \emph{A theory of cognitive dissonance}, volume~2.
 \newblock Stanford university press, 1962.
 
+\bibitem[Foss(2006)]{foss2006strategy}
+N.J. Foss.
+\newblock \emph{Strategy, Economic Organization, and the Knowledge Economy: The
+  Coordination of Firms and Resources}.
+\newblock OUP Oxford, 2006.
+\newblock ISBN 9780199205325.
+\newblock URL \url{http://books.google.de/books?id=GDlymKdbnbUC}.
+
 \bibitem[Gilbreth(1911)]{gilbreth1911motion}
 Frank~Bunker Gilbreth.
 \newblock \emph{Motion study: A method for increasing the efficiency of the
@@ -161,6 +175,13 @@ Michael Granitzer, M~Kroll, Christin Seifert, Andreas~S Rath, Nicolas Weber,
 Adam~M Grant and Susan~J Ashford.
 \newblock The dynamics of proactivity at work.
 \newblock \emph{Research in organizational behavior}, 28:\penalty0 3--34, 2008.
+
+\bibitem[Hawkins and Blakeslee(2007)]{hawkins2007intelligence}
+J.~Hawkins and S.~Blakeslee.
+\newblock \emph{On Intelligence}.
+\newblock Henry Holt and Company, 2007.
+\newblock ISBN 9781429900454.
+\newblock URL \url{http://books.google.de/books?id=Qg2dmntfxmQC}.
 
 \bibitem[Heckhausen and Beckmann(1990)]{heckhausen1990intentional}
 Heinz Heckhausen and J{\"u}rgen Beckmann.
@@ -200,6 +221,13 @@ Edwin Hutchins.
 William James.
 \newblock \emph{The principles of psychology}.
 \newblock Digireads.com, 2011.
+
+\bibitem[Kurzweil(2013)]{kurzweil2013create}
+R.~Kurzweil.
+\newblock \emph{How to Create a Mind: The Secret of Human Thought Revealed}.
+\newblock Penguin Group (USA) Incorporated, 2013.
+\newblock ISBN 9780143124047.
+\newblock URL \url{http://books.google.de/books?id=DBH5mgEACAAJ}.
 
 \bibitem[Law(1992)]{law1992notes}
 John Law.
