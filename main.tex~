@@ -47,7 +47,7 @@ thistoo
 
 % "see" Einträge für den Index
 % 'see'-entries for the index
-\include{indexAddOn}
+%\include{indexAddOn}
 
 
 %--------------------------------------------------------------
@@ -56,41 +56,60 @@ thistoo
 %Die Titelseite aus dem "images"-Verzeichnis wird verwendet
 %use the titlepage from the 'images' directory 
 \begin{titlepage}
-\AddToShipoutPicture*{
-\put(0,0){
-\includegraphics[width=\paperwidth]{titlepage}}}
+   \begin{center} 
+      \Large Towards Intention Aware Systems: A Critical Evaluation             
+    \end{center}
+    \vspace{15ex}
+    \begin{center} 
+     \large \textbf{Dissertation}
+    \end{center}
+    \vspace{5ex}
+    \begin{center} 
+        Zur Erlangung des Grades
+    \end{center}
+    \begin{center} 
+        Doktor der Psychologie (Dr. phil.)
+    \end{center}
+    \vspace{5ex}
+    \begin{center} 
+        des Fachbereiches Psychologie der Universität Trier
+    \end{center}
+    
+%\AddToShipoutPicture*{
+%\put(0,0){
+%\includegraphics[width=\paperwidth]{titlepage}}}
 \strut
 \end{titlepage}
 
-\include{colophon}
-\emptydoublepage
+%\include{colophon}
+%\emptydoublepage
 
-\include{declarationofownwork}
-\emptydoublepage
+%\include{declarationofownwork}
+%\emptydoublepage
 
 \tableofcontents
-\emptydoublepage
+%\emptydoublepage
 %
-\listoffigures
-\emptydoublepage
+%\listoffigures
+%\emptydoublepage
 %
-\listoftables
-\emptydoublepage
+%\listoftables
+%\emptydoublepage
 
 %Die Übersicht sollte in englischer und in deutscher Sprache verfasst werden
 %the abstract should include an english and a german version
-\include{abstract}
-\emptydoublepage
+%\include{abstract}
+%\emptydoublepage
 
 %Danksagungen
 %acknowledgements
-\include{acknowledgements}
-\emptydoublepage
+%\include{acknowledgements}
+%\emptydoublepage
 
 %In der Arbeit verwendete Konventionen (Formelsatz, Definitionen, etc.)
 %conventions applied in the thesis (AE/BE, definitions, etc.)
-\include{conventions}
-\emptydoublepage
+%\include{conventions}
+%\emptydoublepage
 
 %--------------------------------------------------------------
 \mainmatter
@@ -107,10 +126,10 @@ thistoo
 \emptydoublepage
 
 \begin{appendix}
-\include{appendix_01}
-\emptydoublepage
-\include{appendix_02}
-\emptydoublepage
+%\include{appendix_01}
+%\emptydoublepage
+%\include{appendix_02}
+%\emptydoublepage
 \end{appendix}
 
 %--------------------------------------------------------------

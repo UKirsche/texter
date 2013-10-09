@@ -13,50 +13,51 @@ Repeated entry---line 238 of file ../literature/knowledge.bib
  : @article{schmitz2011contextualized
  :                                   ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "6"
 Warning--empty journal in allport1935attitudes
 Warning--empty journal in annett1967task
 Warning--empty journal in bandura1977social
 Warning--empty journal in bem1973self
 Warning--empty journal in schmitz2011contextualized
-You've used 60 entries,
+You've used 64 entries,
             2773 wiz_defined-function locations,
-            945 strings with 14306 characters,
-and the built_in function-call counts, 26793 in all, are:
-= -- 2454
-> -- 1291
-< -- 60
-+ -- 447
-- -- 387
-* -- 1947
-:= -- 4035
-add.period$ -- 199
-call.type$ -- 60
-change.case$ -- 296
-chr.to.int$ -- 60
-cite$ -- 125
-duplicate$ -- 1379
-empty$ -- 2355
-format.name$ -- 480
-if$ -- 5752
+            968 strings with 14816 characters,
+and the built_in function-call counts, 28373 in all, are:
+= -- 2590
+> -- 1375
+< -- 65
++ -- 475
+- -- 411
+* -- 2068
+:= -- 4281
+add.period$ -- 211
+call.type$ -- 64
+change.case$ -- 315
+chr.to.int$ -- 64
+cite$ -- 133
+duplicate$ -- 1459
+empty$ -- 2494
+format.name$ -- 516
+if$ -- 6085
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 71
-newline$ -- 314
-num.names$ -- 240
-pop$ -- 670
+missing$ -- 76
+newline$ -- 334
+num.names$ -- 256
+pop$ -- 706
 preamble$ -- 1
-purify$ -- 247
+purify$ -- 263
 quote$ -- 0
-skip$ -- 1029
+skip$ -- 1093
 stack$ -- 0
-substring$ -- 1011
-swap$ -- 195
-text.length$ -- 19
+substring$ -- 1043
+swap$ -- 200
+text.length$ -- 20
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 605
+type$ -- 644
 warning$ -- 5
-while$ -- 268
+while$ -- 283
 width$ -- 0
-write$ -- 789
+write$ -- 841
 (There was 1 error message)

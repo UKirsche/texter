@@ -5,3 +5,63 @@
 
 \chapter{Own work}
 \label{ownwork} 
+As was elaborated in the last chapter, an important research question is the detection of habits. This is based on the following findings:
+\begin{itemize}
+  \item Habits are stored as procedural knowledge structures in goal achievement. They are an indicator for expert knowledge as they free cognitive resources for more conscious intentional plans (\cite{aarts2000habits})
+  \item Habits can predict future behavior (\cite{bentler1979models})
+  \item Most activities of the day have habitual character  as they take place in the same context (social environment, people and preceding actions ((\cite{townsend2001sentence}, \cite{wood2007new})
+  \item Habits usually are learned when achieving intentional goals but later, by a slow learning progress, they become subordinate parts of many goal directed behaviors (\cite{wood2007new}). 
+\end{itemize}
+
+It is interesting that the detection of habits has not yet been researched in computers sciences and even in psychology it is a relatively new subject as habits are hard to measure. The usual means for detecting patterns are diaries, self-reports or questionnaires. But habits are clearly behavioristic. Computers are an interesting platform to detect patterns. The following hypotheses are formulated:
+
+\begin{itemize}
+  \item Habits must be detectable by people who are involved with daily computer work
+  \item Habits are an indicator for expert knowledge
+  \item Habits can be predicted
+  \item Habits indicate to relevant context parameters
+\end{itemize}
+
+The hypotheses rely on the ability to detect and measure habits. As chapter \ref{Model Human Processor} introduced, the \acf{MHP} and \acf{GOMS} are not feasible to detect tasks, but their methodical approaches can be used to analyze habits. This gets clearer as \ac{GOMS} was developed to estimate the total amount of time a task will take based on the composite of elementary actions. Routine cognitive skills can be described as a serial sequence of cognitive operations and motor activities. Each action can be quantified independently from the actual context. Figure \ref{fig6} shows the steps of a user by using his software: The user perceives activity on the screen, evaluates whether the activity is according to goals sets up the intention for the next step, retrieves the way to act accordingly on the system and executes his movements. The time for the activities is a compound empirical value of the \ac{MHP} where all operations are calculated from the interconnections of a set of processors and memories based on a "'recognize-act-cycle"': the "'perceptual processor"' encodes information from the senses to be available in the visual image  store (short-term memory). From there the encoded information is retrieved from the long-term memory that modifies the information in the short-term memory again (act of recognizing). After that, the decision to act is taken by the "'cognitive processor"' and executed by the "'motor processor"' (see chapter \ref{Model Human Processor}). As the feedback loop from action to perception is time-consuming, rapid acts are executed in bursts (\cite{card1986model}). The shortcomings of the \ac{GOMS} approach in elaborating tasks make it therefore useful for analyzing habits:
+
+\begin{enumerate}
+  \item The model applies only to very skilled users
+  \item Learning or recall after periods of non-use are not elaborated
+  \item The model focuses on errorless performance
+  \item The model was developed exclusively for tasks in which the principal modeled components were assumed to be serial in nature
+  \item The model does not address mental workload
+  \item The model does not address fatigue
+\end{enumerate}
+
+Empirically derived values for typical actions were verified and are listed in table \ref{tab1}:
+As time can vary for expert and novice mid-skilled users there is individual variation: For example key-stroke time for an average typist as is listed below is about $230$ msec. An expert writer is listed with $80$ msec (\cite{olson1990growth}).
+
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{lr} \toprule
+    Type of action & Time \\ \midrule
+    Enter a keystroke  & $230$ msec \\
+    Point with a mouse  & $1500$ msec \\
+    Move hands to mouse  & $360$ msec \\
+    Perceive  & $100$ msec \\
+    Retrieve from memory  & $1200$ msec \\
+    Execute mental step  & $70$ msec \\
+    Choose among methods  & $1250$ msec \\
+    \bottomrule
+\end{tabular}
+ \caption{Cognitive engineering parameters}
+ \label{tab1}
+\end{table}
+
+The sequences of burst actions can be described in the following manner: a skilled programmer is using an editor for writing code. He uses a many shortcuts (\textbf{sk}) and takes time to think (\textbf{M}) between busts of actions. A typical protocol of his text edits could look like the following
+\begin{center}
+  \textbf{<M,sk,sk,sk,M,sk,sk,sk>}
+\end{center} 
+
+Now the idea is, the programmer is very experienced. Shortcuts for him take about $150$ msec. Retrieval from memory takes about $1200$ msec. Total time for the burst action would be $ 2Ms + 6sks = 3200$ msec. The computer protocol on the other hand, would net detect the cognitive activities but the key presses. Therefore the protocol would exhibit 2 very quick bursts of action with a break of about one and a half seconds. 
+Another example without using the keyboard: Imagine a knowledge worker clicking through menus in order to achieve his subtask like adding a table to a word document. He would have to move his mouse (\textbf{MM}) to the according main menu entry first: 'Insert' and click (\textbf{MC}), than he would choose the submenu entry: 'Table' and click (\textbf{MM,MC}). After that, a dialog pops up that lets the user choose the number of rows and columns. He moves his mouse to make to choose (\textbf{MM}) and then clicks to insert the table into his document (\textbf{MC}). The computer detected protocol could look like this:
+\begin{center}
+  \textbf{<MM,MC,MM,MC,MM,MC>}
+\end{center} 
+
+The total time would include the movement of the hand to the mouse at first and the cognitive operations. These are not included. But we can estimate the mouse click and mouse move time with roughly $1500$ msecs. The result would be $9000$ msec for the whole operation.
