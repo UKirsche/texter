@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.6.7)  9 OCT 2013 12:03
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.6.7)  10 OCT 2013 18:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -640,8 +640,11 @@ Package: alltt 1997/06/16 v2.0g defines alltt environment
 )
 Package color Info: Redefining color red on input line 640.
 ) (./main.aux
-(./introduction.aux) (./relatedwork.aux) (./ownwork.aux) (./evaluation.aux)
-(./summaryandfuturework.aux) (./acronyme.aux))
+(./introduction.aux) (./relatedwork.aux) (./ownwork.aux
+
+LaTeX Warning: Label `habits' multiply defined.
+
+) (./evaluation.aux) (./summaryandfuturework.aux) (./acronyme.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -778,7 +781,10 @@ although it is yet undefined on input line 8.
 Package acronym Info: Label `acro:GOMS' newly defined as it shall be overridden
 
 although it is yet undefined on input line 8.
- [3])
+ [3]
+Package acronym Info: Label `acro:HCI' newly defined as it shall be overridden
+although it is yet undefined on input line 18.
+)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
@@ -822,7 +828,7 @@ LaTeX Font Info:    Try loading font information for T1+phv on input line 12.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
-<images/digital.jpg, id=188, 526.96875pt x 483.8075pt>
+<images/digital.jpg, id=206, 526.96875pt x 483.8075pt>
 File: images/digital.jpg Graphic file (type jpg)
 
 <use images/digital.jpg>
@@ -838,7 +844,7 @@ although it is yet undefined on input line 25.
 Underfull \vbox (badness 3229) has occurred while \output is active []
 
  [6 <./images/digital.jpg>] [7]
-<images/knowledge_mining.jpg, id=239, 418.56375pt x 592.2125pt>
+<images/knowledge_mining.jpg, id=257, 418.56375pt x 592.2125pt>
 File: images/knowledge_mining.jpg Graphic file (type jpg)
 
 <use images/knowledge_mining.jpg>
@@ -867,7 +873,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 3547) has occurred while \output is active []
 
  [10]
-<images/k_model.jpg, id=330, 602.25pt x 191.71625pt>
+<images/k_model.jpg, id=348, 602.25pt x 191.71625pt>
 File: images/k_model.jpg Graphic file (type jpg)
  <use images/k_model.jpg>
 Package pdftex.def Info: images/k_model.jpg used on input line 77.
@@ -880,20 +886,18 @@ Package acronym Info: Label `acro:ANT' newly defined as it shall be overridden
 although it is yet undefined on input line 91.
 Package acronym Info: Label `acro:DC' newly defined as it shall be overridden
 although it is yet undefined on input line 91.
-Package acronym Info: Label `acro:HCI' newly defined as it shall be overridden
-although it is yet undefined on input line 91.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
-<images/psychology.jpg, id=366, 720.6925pt x 511.9125pt>
+<images/psychology.jpg, id=384, 720.6925pt x 511.9125pt>
 File: images/psychology.jpg Graphic file (type jpg)
 
 <use images/psychology.jpg>
 Package pdftex.def Info: images/psychology.jpg used on input line 95.
 (pdftex.def)             Requested size: 200.74782pt x 120.44786pt.
  [13 <./images/psychology.jpg>]
-<images/mhp.jpeg, id=392, 853.1875pt x 841.1425pt>
+<images/mhp.jpeg, id=408, 853.1875pt x 841.1425pt>
 File: images/mhp.jpeg Graphic file (type jpg)
  <use images/mhp.jpeg>
 Package pdftex.def Info: images/mhp.jpeg used on input line 110.
@@ -902,7 +906,7 @@ Package pdftex.def Info: images/mhp.jpeg used on input line 110.
 
 Package natbib Warning: Citation `6' on page 14 undefined on input line 116.
 
-<images/goms.jpg, id=406, 602.25pt x 469.755pt>
+<images/goms.jpg, id=422, 602.25pt x 469.755pt>
 File: images/goms.jpg Graphic file (type jpg)
  <use images/goms.jpg>
 Package pdftex.def Info: images/goms.jpg used on input line 122.
@@ -911,13 +915,13 @@ Package pdftex.def Info: images/goms.jpg used on input line 122.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15 <./images/mhp.jpeg>] [16 <./images/goms.jpg>]
-<images/sor.jpg, id=442, 624.3325pt x 178.6675pt>
+<images/sor.jpg, id=458, 624.3325pt x 178.6675pt>
 File: images/sor.jpg Graphic file (type jpg)
  <use images/sor.jpg>
 Package pdftex.def Info: images/sor.jpg used on input line 148.
 (pdftex.def)             Requested size: 100.37157pt x 40.14937pt.
 
-<images/activity_theory.jpg, id=450, 477.785pt x 312.16624pt>
+<images/activity_theory.jpg, id=466, 477.785pt x 312.16624pt>
 File: images/activity_theory.jpg Graphic file (type jpg)
 
 <use images/activity_theory.jpg>
@@ -927,14 +931,14 @@ Package pdftex.def Info: images/activity_theory.jpg used on input line 159.
 Underfull \vbox (badness 1776) has occurred while \output is active []
 
  [17 <./images/sor.jpg> <./images/activity_theory.jpg>]
-<images/distributed.jpg, id=473, 602.25pt x 220.825pt>
+<images/distributed.jpg, id=489, 602.25pt x 220.825pt>
 File: images/distributed.jpg Graphic file (type jpg)
 
 <use images/distributed.jpg>
 Package pdftex.def Info: images/distributed.jpg used on input line 181.
 (pdftex.def)             Requested size: 200.74643pt x 100.37444pt.
  [18] [19 <./images/distributed.jpg>]
-<images/intentions1.jpg, id=536, 813.0375pt x 455.7025pt>
+<images/intentions1.jpg, id=552, 813.0375pt x 455.7025pt>
 File: images/intentions1.jpg Graphic file (type jpg)
 
 <use images/intentions1.jpg>
@@ -950,7 +954,7 @@ although it is yet undefined on input line 231.
 Package acronym Info: Label `acro:IR' newly defined as it shall be overridden
 although it is yet undefined on input line 231.
 
-<images/granitzer.jpg, id=606, 602.25pt x 407.5225pt>
+<images/granitzer.jpg, id=622, 602.25pt x 407.5225pt>
 File: images/granitzer.jpg Graphic file (type jpg)
 
 <use images/granitzer.jpg>
@@ -990,7 +994,7 @@ Overfull \hbox (12.27496pt too wide) in paragraph at lines 278--279
 [][] 
  []
 
-<images/caad.jpg, id=634, 401.5pt x 293.095pt>
+<images/caad.jpg, id=650, 401.5pt x 293.095pt>
 File: images/caad.jpg Graphic file (type jpg)
  <use images/caad.jpg>
 Package pdftex.def Info: images/caad.jpg used on input line 287.
@@ -999,7 +1003,7 @@ Package acronym Info: Label `acro:GaP' newly defined as it shall be overridden
 although it is yet undefined on input line 304.
 Package acronym Info: Label `acro:LSA' newly defined as it shall be overridden
 although it is yet undefined on input line 304.
- [25 <./images/caad.jpg>] <images/cloud.jpg, id=647, 750.805pt x 727.71875pt>
+ [25 <./images/caad.jpg>] <images/cloud.jpg, id=663, 750.805pt x 727.71875pt>
 File: images/cloud.jpg Graphic file (type jpg)
 
 <use images/cloud.jpg>
@@ -1042,19 +1046,25 @@ LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
 
 
 
-] [30]) [31]
-[32]
+] [30] [31]
+Underfull \hbox (badness 1342) in paragraph at lines 80--81
+[]\T1/ppl/m/n/10.95 Actions have to be an-no-tat-ed with the ex-e-cut-ed ap-pli
+-ca-tion like
+ []
+
+[32]) [33] [34
+
+
+
+]
 \openout2 = `evaluation.aux'.
 
  (./evaluation.tex
 Kapitel 4.
-) [33
+) [35
 
 
-
-
-
-] [34
+] [36
 
 
 
@@ -1063,10 +1073,10 @@ Kapitel 4.
 
  (./summaryandfuturework.tex
 Kapitel 5.
-) [35
+) [37
 
 
-] [36
+] [38
 
 
 
@@ -1076,7 +1086,7 @@ Kapitel 5.
  (./acronyme.tex
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 1.
-) [37
+) [39
 
 
 
@@ -1086,24 +1096,24 @@ n already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.140 \include{acronyme}
-                        ] (./main.bbl [38
+                        ] (./main.bbl [40
 
 
 
-] [39]
+] [41]
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 164.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [40] [41] [42])
-[43] [44
+) [42] [43] [44])
+[45] [46
 
 
-] (./main.ind) [45]
+] (./main.ind) [47]
 
 Package natbib Warning: There were undefined citations.
 
-[46]
+[48]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
  (./main.aux (./introduction.aux) (./relatedwork.aux) (./ownwork.aux)
@@ -1111,18 +1121,18 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8660B6881F38DD86A63CD80338D38104;1526.
+(rerunfilecheck)             Checksum: 15CCA241751E9443362EED957846F1A0;1752.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
  ) 
 Here is how much of TeX's memory you used:
- 9627 strings out of 495059
- 139205 string characters out of 3182031
- 231939 words of memory out of 3000000
- 12300 multiletter control sequences out of 15000+200000
+ 9645 strings out of 495059
+ 139424 string characters out of 3182031
+ 232059 words of memory out of 3000000
+ 12307 multiletter control sequences out of 15000+200000
  56646 words of font info for 84 fonts, out of 3000000 for 9000
  18 hyphenation exceptions out of 8191
  40i,12n,49p,1793b,579s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1138,10 +1148,10 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (50 pages, 710680 bytes).
+Output written on main.pdf (52 pages, 716370 bytes).
 PDF statistics:
- 898 PDF objects out of 1000 (max. 8388607)
- 812 compressed objects within 9 object streams
- 227 named destinations out of 1000 (max. 500000)
- 242 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 936 PDF objects out of 1000 (max. 8388607)
+ 848 compressed objects within 9 object streams
+ 238 named destinations out of 1000 (max. 500000)
+ 266 words of extra memory for PDF output out of 10000 (max. 10000000)
 

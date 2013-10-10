@@ -64,4 +64,28 @@ Another example without using the keyboard: Imagine a knowledge worker clicking 
   \textbf{<MM,MC,MM,MC,MM,MC>}
 \end{center} 
 
-The total time would include the movement of the hand to the mouse at first and the cognitive operations. These are not included. But we can estimate the mouse click and mouse move time with roughly $1500$ msecs. The result would be $9000$ msec for the whole operation.
+The total time would include the movement of the hand to the mouse at first and the cognitive operations. These are not included. But we can estimate the mouse click and mouse move time with roughly $1500$ msecs. The result would be $9000$ msec for the whole operation. 
+
+With the help of the elaborated results by \ac{GOMS} and \ac{MHP} we can not predict tasks, but extract habits from user interaction protocols. Short bursts of actions indicate habits as the "'recognize-act-cycle"' is simplified. The examination of habits in the experiments therefore is straightforward and explorative: Extract from user interaction protocols short bursts of actions. 
+
+
+\section{Examining Habits in \acf{HCI}}
+\label{habits}
+\subsection{Description}
+\label{habits_description}
+The first experiment tests the hypothesis whether habits are deducible from user interaction protocols. To this end, the protocol has to fulfill the following constraints: 
+
+\begin{enumerate}
+  \item Time stamps for each action must be recorded in fined-grained manner, i.e. typical date in the format "'\textbf{Day Monthy Year Time Milliseconds}"'. An Example for this is "'\textbf{31.03.2013 14:30,06 769}"'
+  \item Actions have to be annotated with the executed application like "'\textbf{firefox}"' or "'\textbf{chrome}"' and even more semantic information for later analyses. 
+  \item Actions have to semantically categorized and only user actions have to be taken care of. User actions are typically executed by using the keyboard and the mouse. Therefore the action categories at least must be "'\textbf{KeyPress}"' and "'\textbf{MouseClick}"'.
+  \item As expert actions are usually executed by \textit{shortcuts} the value of the activated keys has to be recorded. Typical values for shortcuts are "'\textbf{Shift}"', "'\textbf{Alt}"', "'\textbf{Tab}"' combined with alpha numerical letters.
+\end{enumerate}
+
+\subsection{Method}
+\label{habits_method}
+In order to extract the user interactions a logger was installed by all participants. The logger is able to get all interaction of a user with the Windows Operating System (Windows Vista, Windows 7) and the installed applications. It is based on the UI Automation. Microsoft UI Automation is an accessibility framework that enables Windows applications to provide and consume programmatic information about user interfaces (UIs). It provides programmatic access to most UI elements on the desktop \footnote{http://msdn.microsoft.com/en-us/library/windows/desktop/ee684009.aspx}. As the extracted data lacked some information, UI Automation was combined with hooks to Windows Procedures like "'\textbf{user32.dll}"' (a dynamic-link library) and Mouse and Keyboard listeners. The "'\textbf{user32.dll}"' implements the Windows user component that creates and manipulates the standard elements of the Windows user interface, such as the desktop, windows, and menus. Programs call functions from Windows to perform operations such as creating and managing windows, receiving window messages (which are mostly user input such as mouse and keyboard events, but also notifications from the operating system). 
+
+The UILogger is open source and can be downloaded from GitHub\footnote{www.github.com/ukirsche}. 
+
+
